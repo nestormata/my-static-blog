@@ -1,0 +1,180 @@
+#
+# Apache/PHP/Drupal settings:
+#
+
+# Protect files and directories from prying eyes.
+<FilesMatch "\.(engine|inc|info|install|make|module|profile|test|po|sh|.*sql|theme|tpl(\.php)?|xtmpl)(~|\.sw[op]|\.bak|\.orig|\.save)?$|^(\..*|Entries.*|Repository|Root|Tag|Template)$|^#.*#$|\.php(~|\.sw[op]|\.bak|\.orig\.save)$">
+  Order allow,deny
+</FilesMatch>
+
+# Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# Follow symbolic links in this directory.
+Options +FollowSymLinks
+
+# Make Drupal handle any 404 errors.
+ErrorDocument 404 /404
+
+# Set the default handler.
+DirectoryIndex index.php index.html index.htm
+
+# Requires mod_expires to be enabled.
+<IfModule mod_expires.c>
+  # Enable expirations.
+  ExpiresActive On
+
+  # Cache all files for 2 weeks after access (A).
+  ExpiresDefault A1209600
+  ExpiresByType image/jpg "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/gif "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+
+  <FilesMatch \.php$>
+    # Do not allow PHP scripts to be cached unless they explicitly send cache
+    # headers themselves. Otherwise all scripts would have to overwrite the
+    # headers set by mod_expires if they want another caching behavior. This may
+    # fail if an error occurs early in the bootstrap process, and it may cause
+    # problems if a non-Drupal PHP file is installed in a subdirectory.
+    ExpiresActive Off
+  </FilesMatch>
+</IfModule>
+
+# Various rewrite rules.
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+  RewriteRule .* – [F,L]
+
+  # don't loose this page ranking: es/feeditem/credomatic-costa-rica-nada-viejitos
+  RewriteRule ^es/feeditem/credomatic-costa-rica-nada-viejitos /es/2009/08/17/credomatic-bac-san-jos-o-ge-money-costa-rica-y-su-servicio-al-cliente-1462 [L,NC,R=301]
+  RewriteRule ^2010/06/05/how-set-index-length-drupal-database-schema-1471 /2010/06/04/how-set-index-length-drupal-database-schema-1471 [L,NC,R=301]
+  RewriteRule ^es/category/tags/net$ /es/dotnet [L,NC,R=301]
+  RewriteRule ^en/category/tags/net$ /en/dotnet [L,NC,R=301]
+  RewriteRule ^category/tags/net$ /en/dotnet [L,NC,R=301]
+  RewriteRule ^es/category/tags/drupal$ /es/drupal [L,NC,R=301]
+  RewriteRule ^en/category/tags/drupal$ /en/drupal [L,NC,R=301]
+  RewriteRule ^category/tags/drupal$ /en/drupal [L,NC,R=301]
+  # Categories
+  RewriteRule ^category/category/development$ /development [L,NC,R=301]
+  RewriteRule ^en/category/category/development$ /development [L,NC,R=301]
+  RewriteRule ^es/category/category/development$ /es/desarrollo [L,NC,R=301]
+  RewriteRule ^category/category/gadget$ /gadget [L,NC,R=301]
+  RewriteRule ^en/category/category/gadget$ /gadget [L,NC,R=301]
+  RewriteRule ^es/category/category/gadget$ /es/dispositivo [L,NC,R=301]
+  RewriteRule ^category/category/personal$ /personal [L,NC,R=301]
+  RewriteRule ^en/category/category/personal$ /personal [L,NC,R=301]
+  RewriteRule ^es/category/category/personal$ /es/personal [L,NC,R=301]
+  RewriteRule ^category/category/professional$ /professional [L,NC,R=301]
+  RewriteRule ^en/category/category/professional$ /professional [L,NC,R=301]
+  RewriteRule ^es/category/category/professional$ /es/profesional [L,NC,R=301]
+  RewriteRule ^category/category/technology$ /technology [L,NC,R=301]
+  RewriteRule ^en/category/category/technology$ /technology [L,NC,R=301]
+  RewriteRule ^es/category/category/technology$ /es/tecnologia [L,NC,R=301]
+  # Fix redirects for languages
+  RewriteRule ^node/2$ /es/2009/02/12/mi-nuevo-blog-2 [L,NC,R=301]
+  RewriteRule ^es/node/1$ /2009/02/11/my-new-blog-1 [L,NC,R=301]
+  RewriteRule ^node/9$ /es/2009/02/24/1825-razones-para-sonreir-y-mas-9 [L,NC,R=301]
+  RewriteRule ^node/11$ /es/2009/02/26/google-sincroniza-contactos-y-calendario-su-iphoneipod-touch-11 [L,NC,R=301]
+  RewriteRule ^es/node/10$ /2009/02/26/google-synchronize-calendar-and-contacts-your-iphoneipod-touch-10 [L,NC,R=301]
+  RewriteRule ^node/1469$ /es/2009/12/03/tutorial-content-delivery-network-cdn-1469 [L,NC,R=301]
+  RewriteRule ^node/1472$ /es/2010/06/04/como-definir-tama-o-un-indice-database-schema-drupal-1472 [L,NC,R=301]
+  RewriteRule ^es/node/1471$ /2010/06/04/how-set-index-length-drupal-database-schema-1471 [L,NC,R=301]
+  RewriteRule ^node/1473$ /es/2010/11/04/como-usar-diferentes-webconfig-para-cada-ambiente-transformaciones-webconfig-1473 [L,NC,R=301]
+
+  #Fix change of location of files directory
+  RewriteRule ^sites/nestor\.profesional\.co\.cr/files/(.*)$ /sites/files/$1 [L,NC,R=301]
+  RewriteRule ^sites/nestor\.redesprofesionales\.com/files/(.*)$ /sites/files/$1 [L,NC,R=301]
+
+
+  # Set "protossl" to "s" if we were accessed via https://.  This is used later
+  # if you enable "www." stripping or enforcement, in order to ensure that
+  # you don't bounce between http and https.
+  RewriteRule ^ - [E=protossl]
+  RewriteCond %{HTTPS} on
+  RewriteRule ^ - [E=protossl:s]
+
+  # Make sure Authorization HTTP header is available to PHP
+  # even when running as CGI or FastCGI.
+  RewriteRule ^ - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+  # Block access to "hidden" directories whose names begin with a period. This
+  # includes directories used by version control systems such as Subversion or
+  # Git to store control files. Files whose names begin with a period, as well
+  # as the control files used by CVS, are protected by the FilesMatch directive
+  # above.
+  #
+  # NOTE: This only works when mod_rewrite is loaded. Without mod_rewrite, it is
+  # not possible to block access to entire directories from .htaccess, because
+  # <DirectoryMatch> is not allowed here.
+  #
+  # If you do not have mod_rewrite installed, you should remove these
+  # directories from your webroot or otherwise protect them from being
+  # downloaded.
+  RewriteRule "(^|/)\." - [F]
+
+  # If your site can be accessed both with and without the 'www.' prefix, you
+  # can use one of the following settings to redirect users to your preferred
+  # URL, either WITH or WITHOUT the 'www.' prefix. Choose ONLY one option:
+  #
+  # To redirect all users to access the site WITHOUT the 'www.' prefix,
+  # (http://www.example.com/... will be redirected to http://example.com/...)
+  # uncomment the following:
+  # RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  # RewriteRule ^ http%{ENV:protossl}://%1%{REQUEST_URI} [L,R=301]
+  #RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  #RewriteRule ^ http%{ENV:protossl}://%1%{REQUEST_URI} [L,R=301]
+  RewriteCond %{HTTP_HOST} ^nestor\.profesional\.co\.cr$ [NC]
+  RewriteRule ^ http%{ENV:protossl}://www.profesional.co.cr%{REQUEST_URI} [L,R=301]
+
+  # To redirect all users to access the site WITH the 'www.' prefix,
+  # (http://example.com/... will be redirected to http://www.example.com/...)
+  # uncomment the following:
+  #RewriteCond %{HTTP_HOST} .
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^ http%{ENV:protossl}://www.profesional.co.cr%{REQUEST_URI} [L,R=301]
+
+  # Modify the RewriteBase if you are using Drupal in a subdirectory or in a
+  # VirtualDocumentRoot and the rewrite rules are not working properly.
+  # For example if your site is at http://example.com/drupal uncomment and
+  # modify the following line:
+  # RewriteBase /drupal
+  #
+  # If your site is running in a VirtualDocumentRoot at http://example.com/,
+  # uncomment the following line:
+  # RewriteBase /
+
+  # Pass all requests not referring directly to files in the filesystem to
+  # index.php. Clean URLs are handled in drupal_environment_initialize().
+  #RewriteCond %{REQUEST_FILENAME} !-f
+  #RewriteCond %{REQUEST_FILENAME} !-d
+  #RewriteCond %{REQUEST_URI} !=/favicon.ico
+  #RewriteRule ^ index.php [L]
+
+  # Rules to correctly serve gzip compressed CSS and JS files.
+  # Requires both mod_rewrite and mod_headers to be enabled.
+  <IfModule mod_headers.c>
+    # Serve gzip compressed CSS files if they exist and the client accepts gzip.
+    RewriteCond %{HTTP:Accept-encoding} gzip
+    RewriteCond %{REQUEST_FILENAME}\.gz -s
+    RewriteRule ^(.*)\.css $1\.css\.gz [QSA]
+
+    # Serve gzip compressed JS files if they exist and the client accepts gzip.
+    RewriteCond %{HTTP:Accept-encoding} gzip
+    RewriteCond %{REQUEST_FILENAME}\.gz -s
+    RewriteRule ^(.*)\.js $1\.js\.gz [QSA]
+
+    # Serve correct content types, and prevent mod_deflate double gzip.
+    RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1]
+    RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1]
+
+    <FilesMatch "(\.js\.gz|\.css\.gz)$">
+      # Serve correct encoding type.
+      Header set Content-Encoding gzip
+      # Force proxies to cache gzipped & non-gzipped css/js files separately.
+      Header append Vary Accept-Encoding
+    </FilesMatch>
+  </IfModule>
+</IfModule>

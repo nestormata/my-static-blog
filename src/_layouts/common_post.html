@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<div class="panel post-page">
+  <div class="label date-label">
+    <div>{{ page.date | localize: page.lang, '%d' }}</div>
+    <div>{{ page.date | localize: page.lang, '%b' }}</div>
+    <div>{{ page.date | localize: page.lang, '%Y' }}</div>
+  </div>
+  <h1>{{ page.title }}</h1>
+
+  <div class="post">
+    {% capture time %}{{ content | reading_time }}{% endcapture %}
+    <div class="label">
+      {% if page.lang == 'es' %}
+        Tiempo de lectura: {{ time }} {% if time == '1' %}minuto{% else %}minutos{% endif %}
+      {% else %}
+        Reading time: {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}
+      {% endif %}
+    </div>
+    <div class="social-bar panel callout radius">
+      <ul>
+        <li class="linkedin-button"><script type="IN/Share" data-url="{{ site.url }}{{ page.url }}"></script></li>
+        <li class="twitter-button"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="{{ page.lang }}" data-url="{{ site.url }}{{ page.url }}" data-count="none" data-size="medium">Tweet</a></li>
+        <li class="fb-button"><div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-type="button"></div></li>
+        <li class="gplus-button"><div class="g-plusone" data-annotation="none" data-size="medium" href="{{ site.url }}{{ page.url }}"></div></li>
+      </ul>
+    </div>
+
+    {{ content }}
+  </div>
+</div>
+
+<div class="panel">
+  <h3>{% if page.lang == 'es' %}Art&iacute;culos Relacionados{% else %}Related Posts{% endif %}</h3>
+  <ul class="related-posts">
+    {% for post in site.related_posts %}
+      {% if post.language == page.lang %}
+        <li>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

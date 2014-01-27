@@ -1,0 +1,69 @@
+name:         Senior Web Developer
+description:  Nestor Mata Cuthbert is a seasoned web developer with lot of experience in PHP, Drupal, .Net, Java, J2EE, AJAX, MySQL and other technlologies.
+keywords:     development, programming, web, drupal, html, ajax, jekyll, mysql
+author:       Nestor Mata Cuhtbert <nestor@profesional.co.cr>
+copyright:    Nestor Mata Cuthbert 2009-2014
+
+rss_post_limit: 20
+
+source:       ./src
+destination:  ./build
+layouts:      ./_layouts
+plugins:      ./src/_plugins
+
+include:      ['.htaccess']
+exclude:      []
+keep_files:   ['.git']
+gems:         []
+timezone:     America/Panama
+encoding:     UTF-8
+future:       true
+show_drafts:  false
+limit_posts:  0
+pygments:     true
+
+relative_permalinks:  true
+permalink:            pretty
+paginate:             5
+paginate_path:        'page:num'
+
+#markdown:     maruku
+markdown_ext: markdown,mkd,mkdn,md
+textile_ext:  textile
+
+excerpt_separator: "\n\n"
+
+safe:         false
+host:         0.0.0.0
+port:         4000
+baseurl:      /
+url:          http://profesional.co.cr
+#url:          http://nestor.manantial
+#lsi:          false
+lsi:          true
+
+rdiscount:
+  extensions:     []
+
+redcarpet:
+  extensions:     []
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  use_coderay:    false
+
+redcloth:
+  hard_breaks:    true
+
+asset_pipeline:
+  bundle: true
+  compress: true
+  output_path: assets
+  gzip: true
+  display_path: /3cca053a28a5db4d7e2d-9c64834929b7793a1eba90da107ff905.r73.cf1.rackcdn.com/assets
+
+liveload: false

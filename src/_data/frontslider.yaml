@@ -1,0 +1,11 @@
+- title: Web Development
+  liner: Drupal, PHP, HTML, AJAX and more
+  title_es: Desarrollo Web
+  liner_es: Drupal, PHP, HTML, AJAX y más
+  class: front-page-1
+
+- title: Suscribe
+  liner: Get the last article in your email (weekly or montly)
+  title_es: Suscribase
+  liner_es: Obtenga el último articulo en su correo (semanal o mensual)
+  class: front-page-2

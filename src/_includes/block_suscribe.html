@@ -1,0 +1,42 @@
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup" class="block{% if include.classes != nil %} {{ include.classes }}{% endif %}">
+  <form action="http://ebookarte.us6.list-manage1.com/subscribe/post?u=9a82284cd5a1a3a9561d2ec44&amp;id=9098037764" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    {% if include.title != nil %}<h3>{{ include.title }}</h3>{% endif %}
+  <div class="block-content panel">
+    <div>{{ include.body | markdownify }}</div>
+    <div class="mc-field-group">
+      <label for="mce-EMAIL">{% if page.lang == 'es' %}Email{% else %}Email Address{% endif %} <span class="asterisk">*</span>
+      </label>
+      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+    </div>
+    <div class="mc-field-group hide-small">
+      <label for="mce-FNAME">{% if page.lang == 'es' %}Nombre{% else %}First Name{% endif %} </label>
+      <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+    </div>
+    <div class="mc-field-group hide-small">
+      <label for="mce-LNAME">{% if page.lang == 'es' %}Apellido{% else %}Last Name{% endif %}</label>
+      <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+    </div>
+    <div class="mc-field-group input-group hide-small">
+      <label>{% if page.lang == 'es' %}Frecuencia{% else %}Frecuency{% endif %}</label>
+      <ul>
+        <li><input type="radio" value="1" name="group[12441]" id="mce-group[12441]-12441-0" checked><label for="mce-group[12441]-12441-0">{% if page.lang == 'es' %}Semanal{% else %}Weekly{% endif %}</label></li>
+        <li><input type="radio" value="2" name="group[12441]" id="mce-group[12441]-12441-1"><label for="mce-group[12441]-12441-1">{% if page.lang == 'es' %}Mensual{% else %}Montly{% endif %}</label></li>
+      </ul>
+    </div>
+    <div class="mc-field-group input-group hide-small">
+      <label>{% if page.lang == 'es' %}Lenguaje{% else %}Language{% endif %} </label>
+      <ul>
+        <li><input type="radio" value="4" name="group[12445]" id="mce-group[12445]-12445-0"{% if page.lang == 'en' %} checked{% endif %}><label for="mce-group[12445]-12445-0">English</label></li>
+        <li><input type="radio" value="8" name="group[12445]" id="mce-group[12445]-12445-1"{% if page.lang == 'es' %} checked{% endif %}><label for="mce-group[12445]-12445-1">Español</label></li>
+      </ul>
+    </div>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_9a82284cd5a1a3a9561d2ec44_9098037764" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="indicates-required"><span class="asterisk">*</span> {% if page.lang == 'es' %}campo requerido{% else %}indicates required{% endif %}</div>
+  </form>
+  </div>
+</div>
+
+<!--End mc_embed_signup-->

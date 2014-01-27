@@ -1,0 +1,20 @@
+- layout: block_suscribe.html
+  title: Suscribe
+  title_es: Suscribase
+  content: 
+  content_es: 
+
+- layout: block_default.html
+  classes: hide-small
+  title: All New!
+  title_es: Renovado!
+  content: |
+    All new, faster and better site now.  
+    This blog has just remake from scratch switching technologies.   
+    Using now Jekyll, SASS, Foundation, Node.js, AJAX and ESI.   
+    Suscribe to know when I post about how I built it.   
+  content_es: |
+    Completamente renovado, más rápido y mejorado.  
+    Este blog fue hecho de nuevo desde cero cambiando las tecnologías.  
+    Ahora usa Jekyll, SASS, Foundation, Node.js, AJAX y ESI.  
+    Suscribase para saber cuando explico como fue creado.

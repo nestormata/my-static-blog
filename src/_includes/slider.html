@@ -1,0 +1,20 @@
+{% if page.frontpage == 1 %}
+  <div class="front-slider">
+    <ul data-orbit data-options="slide_number: false;">
+      {% for slider in site.data.frontslider %}
+        <li>
+          <div class="slider-container {{ slider.class }}">
+            <h2>{% if page.lang == 'es' %}{{ slider.title_es }}{% else %}{{ slider.title }}{% endif %}</h2>
+            <h3>{% if page.lang == 'es' %}{{ slider.liner_es }}{% else %}{{ slider.liner }}{% endif %}</h3>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% else %}
+  <ul class="breadcrumbs">
+    <li><a href="/{% if page.lang == 'es' %}es/{% endif %}">{% if page.lang == 'es' %}inicio{% else %}home{% endif %}</a></li>
+    <li>{{ page.title }}</li>
+  </ul>
+{% endif %}
+

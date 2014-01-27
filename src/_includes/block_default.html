@@ -1,0 +1,6 @@
+<div class="block{% if include.classes != nil %} {{ include.classes }}{% endif %}">
+    {% if include.title != nil %}<h3>{{ include.title }}</h3>{% endif %}
+  <div class="block-content panel">
+    {{ include.body | markdownify }}
+  </div>
+</div>

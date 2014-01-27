@@ -1,0 +1,12 @@
+/* humanstxt.org */
+
+/* TEAM */
+Developer/Owner: Nestor Mata Cuthbert
+Contact: nestor [at] profesional.co.cr
+Twitter: @nestormata
+Location: The Matrix
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery, Foundation, Jekyll, Node.js, ESI
+  Software: Vim

@@ -1,0 +1,110 @@
+@media #{$small-only} {
+  .hide-small {
+    display:none;
+  }
+}
+body {
+  background-color: $color-6;
+  color: $color-5;
+}
+a, a:link, a:visited {
+  color: $color-3;
+}
+.main-nav {
+  width: 100%;
+  max-width:100%;
+  min-height: rem-calc(32);
+  line-height: rem-calc(32);
+  margin: 0 auto 0;
+  color: $color-3;
+  background-color: $color-5;
+}
+.main-nav nav {
+}
+.main-nav nav ul {
+  min-height: rem-calc(32);
+  white-space: nowrap;
+}
+.main-nav nav ul li {
+  min-height: rem-calc(32);
+  line-height: rem-calc(32);
+  padding: 0 0.5em 0 0;
+}
+.front-slider {
+  background-color: $color-3;
+}
+.front-slider .orbit-slides-container li {
+  padding: rem-calc(16) rem-calc(32);
+  color: $color-2;
+}
+.front-slider .slider-container {
+  padding-top: rem-calc(16);
+  height: rem-calc(180);
+  min-height: rem-calc(180);
+}
+.front-slider .front-page-1 {
+  padding-left: 110px;
+  background: url('/images/samurai-welcome.png') no-repeat;
+}
+div.language-switch {
+  margin: 0;
+  padding: 0.5em;
+  background-color: $color-5;
+}
+#main {
+  background-color: $color-6;
+  margin: 0;
+  width: 100%;
+}
+ul.posts li {
+  list-style: none;
+}
+.post-panel {
+  padding-top: 0;
+}
+.post-panel .date-label {
+  top: -1em;
+  margin: 0;
+}
+.mc-field-group ul {
+  list-style: none;
+}
+.block h3 {
+  margin-top: 1.25em;
+  margin-bottom: 0;
+}
+.post-page {
+}
+.post-page .date-label {
+  left: -1.25em;
+  font-size:150%;
+  @include radius();
+  float:left;
+  margin-top: 0.5em;
+}
+.footer {
+  background-color: $color-5;
+  color: $color-6;
+}
+div.social-bar.panel {
+  height: 40px;
+  margin: 1em 0;
+  padding: 0.25em 0 2em 0;
+}
+.social-bar ul {
+  width: 100%;
+  list-style: none;
+}
+.social-bar ul li {
+  float: left;
+  margin-right: 1em;
+}
+.social-bar .gplus-button {
+  margin-top: 5px;
+}
+.social-bar .twitter-button {
+  margin-top: 5px;
+}
+.social-bar .linkedin-button {
+  margin-top: 5px;
+}
