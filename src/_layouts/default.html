@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- <link rel="icon" type="image/x-icon" href="url_to_my_favicon" /> -->
         <title>{{ page.title }}</title>
+        <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{% if page.lang == 'es' %}{{ site.rssurles }}{% else %}{{ site.rssurl }}" /> 
         {% if page.excerpt != nil %}
           <meta name="description" content="{{ page.excerpt | strip_html }}">
         {% else %}

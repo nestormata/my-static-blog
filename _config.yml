@@ -40,7 +40,6 @@ baseurl:      /
 url:          http://profesional.co.cr
 #url:          http://nestor.manantial
 #lsi:          false
-lsi:          true
 
 rdiscount:
   extensions:     []
@@ -67,3 +66,5 @@ asset_pipeline:
   display_path: /3cca053a28a5db4d7e2d-9c64834929b7793a1eba90da107ff905.r73.cf1.rackcdn.com/assets
 
 liveload: false
+rssurl: http://feeds.feedburner.com/SeniorWebDeveloper
+rssurles: http://feeds.feedburner.com/SeniorWebDeveloperEs
