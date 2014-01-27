@@ -14,10 +14,10 @@ Options -Indexes
 Options +FollowSymLinks
 
 # Make Drupal handle any 404 errors.
-ErrorDocument 404 /404
+ErrorDocument 404 /404error.html
 
 # Set the default handler.
-DirectoryIndex index.php index.html index.htm
+DirectoryIndex index.php index.html
 
 # Requires mod_expires to be enabled.
 <IfModule mod_expires.c>
@@ -126,15 +126,15 @@ DirectoryIndex index.php index.html index.htm
   # RewriteRule ^ http%{ENV:protossl}://%1%{REQUEST_URI} [L,R=301]
   #RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   #RewriteRule ^ http%{ENV:protossl}://%1%{REQUEST_URI} [L,R=301]
-  RewriteCond %{HTTP_HOST} ^nestor\.profesional\.co\.cr$ [NC]
-  RewriteRule ^ http%{ENV:protossl}://www.profesional.co.cr%{REQUEST_URI} [L,R=301]
+  #RewriteCond %{HTTP_HOST} ^nestor\.profesional\.co\.cr$ [NC]
+  #RewriteRule ^ http%{ENV:protossl}://www.profesional.co.cr%{REQUEST_URI} [L,R=301]
 
   # To redirect all users to access the site WITH the 'www.' prefix,
   # (http://example.com/... will be redirected to http://www.example.com/...)
   # uncomment the following:
   #RewriteCond %{HTTP_HOST} .
-  RewriteCond %{HTTP_HOST} !^www\. [NC]
-  RewriteRule ^ http%{ENV:protossl}://www.profesional.co.cr%{REQUEST_URI} [L,R=301]
+  #RewriteCond %{HTTP_HOST} !^www\. [NC]
+  #RewriteRule ^ http%{ENV:protossl}://www.profesional.co.cr%{REQUEST_URI} [L,R=301]
 
   # Modify the RewriteBase if you are using Drupal in a subdirectory or in a
   # VirtualDocumentRoot and the rewrite rules are not working properly.

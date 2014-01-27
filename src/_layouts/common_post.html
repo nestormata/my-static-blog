@@ -18,7 +18,7 @@ layout: default
         Reading time: {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}
       {% endif %}
     </div>
-    <div class="social-bar panel callout radius">
+    <div class="social-bar panel radius">
       <ul>
         <li class="linkedin-button"><script type="IN/Share" data-url="{{ site.url }}{{ page.url }}"></script></li>
         <li class="twitter-button"><a href="https://twitter.com/share" class="twitter-share-button" data-lang="{{ page.lang }}" data-url="{{ site.url }}{{ page.url }}" data-count="none" data-size="medium">Tweet</a></li>
@@ -27,7 +27,19 @@ layout: default
       </ul>
     </div>
 
+    {% if page.series != nil %}
+      <div class="series-panel panel callout radius">
+        <h3>{% if post.language == 'es' %}Serie{% else %}Series{% endif %}</h3>
+        <ul>
+          {% for serie in page.series %}
+            <li><a href="{{ serie[1] }}">{{ serie[0] }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
     {{ content }}
+
   </div>
 </div>
 

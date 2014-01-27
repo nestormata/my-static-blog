@@ -36,6 +36,12 @@
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     <div class="indicates-required"><span class="asterisk">*</span> {% if page.lang == 'es' %}campo requerido{% else %}indicates required{% endif %}</div>
   </form>
+  <hr />
+  {% if page.lang == 'es' %}
+  <p><a href="http://feeds.feedburner.com/SeniorWebDeveloperEs" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/SeniorWebDeveloperEs" rel="alternate" type="application/rss+xml">RSS Feed</a></p>
+  {% else %}
+  <p><a href="http://feeds.feedburner.com/SeniorWebDeveloper" rel="alternate" type="application/rss+xml"><img src="//feedburner.google.com/fb/images/pub/feed-icon16x16.png" alt="" style="vertical-align:middle;border:0"/></a>&nbsp;<a href="http://feeds.feedburner.com/SeniorWebDeveloper" rel="alternate" type="application/rss+xml">RSS Feed</a></p>
+  {% endif %}
   </div>
 </div>
 

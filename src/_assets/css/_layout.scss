@@ -88,8 +88,9 @@ ul.posts li {
 }
 div.social-bar.panel {
   height: 40px;
-  margin: 1em 0;
+  margin: 2em 0 1em 0;
   padding: 0.25em 0 2em 0;
+  background-color: #FFF;
 }
 .social-bar ul {
   width: 100%;
@@ -107,4 +108,21 @@ div.social-bar.panel {
 }
 .social-bar .linkedin-button {
   margin-top: 5px;
+}
+.series-panel {
+  float: right;
+  margin-right: -2em;
+  width: 30%;
+}
+@media #{$small-only} {
+  .series-panel {
+    float: none;
+    margin-right: 0;
+    width: auto;
+  }
+}
+@media #{$medium-only} {
+  .series-panel {
+    width: 50%;
+  }
 }
