@@ -2,6 +2,15 @@
 layout: default
 ---
 <div class="panel post-page">
+  {% capture time %}{{ content | reading_time }}{% endcapture %}
+  <div class="label">
+    {% if page.lang == 'es' %}
+      Tiempo de lectura: {{ time }} {% if time == '1' %}minuto{% else %}minutos{% endif %}
+    {% else %}
+      Reading time: {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}
+    {% endif %}
+  </div>
+
   <div class="label date-label">
     <div>{{ page.date | localize: page.lang, '%d' }}</div>
     <div>{{ page.date | localize: page.lang, '%b' }}</div>
@@ -10,14 +19,6 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="post">
-    {% capture time %}{{ content | reading_time }}{% endcapture %}
-    <div class="label">
-      {% if page.lang == 'es' %}
-        Tiempo de lectura: {{ time }} {% if time == '1' %}minuto{% else %}minutos{% endif %}
-      {% else %}
-        Reading time: {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}
-      {% endif %}
-    </div>
     <div class="social-bar panel radius">
       <ul>
         <li class="linkedin-button"><script type="IN/Share" data-url="{{ site.url }}{{ page.url }}"></script></li>
@@ -35,6 +36,12 @@ layout: default
             <li><a href="{{ serie[1] }}">{{ serie[0] }}</a></li>
           {% endfor %}
         </ul>
+      </div>
+    {% endif %}
+
+    {% if page.custom_segment != nil %}
+      <div class="custom-segment">
+        {{ page.custom_segment }}
       </div>
     {% endif %}
 

@@ -9,21 +9,17 @@ permalink: es/2011/04/25/bits-bytes-nibles-sets-enums-flags-php-mysql-y-drupal-p
 ---
 Es posible sacar más provecho al espacio y los datos en la base de datos y el codigo, y es de hecho muy importante, para algunos enfoques se puede utilizar datos a nivel de bits de manera eficiente, tanto en el codigo PHP, MySQL y en Drupal.
 
-Antes de mejorar algo o sacarle más provecho es importante entenderlo, para esto vamos a hacer un repaso de algebra booleana.
-
-Un Byte son 8 bits, 1 byte (tiny int en mysql) nos permite guardar 256 valores diferentes, 2 Bytes (smallint en mysql) nos dan 65.536 valores diferentes y 4 Bytes (int en mysql) nos dan 4.294.967.296 valores diferentes y el BigInt usando 8 Bytes.
-
-También algunos engines soportan el uso de Bit como tipo de dato, soportando hasta 64 bits por tabla.
+Antes de mejorar algo o sacarle más provecho es importante entenderlo, para esto vamos a hacer un repaso de algebra booleana.  
+Un Byte son 8 bits, 1 byte (tiny int en mysql) nos permite guardar 256 valores diferentes, 2 Bytes (smallint en mysql) nos dan 65.536 valores diferentes y 4 Bytes (int en mysql) nos dan 4.294.967.296 valores diferentes y el BigInt usando 8 Bytes.  
+También algunos engines soportan el uso de Bit como tipo de dato, soportando hasta 64 bits por tabla.  
 Además, esta los tipos Enum y Set.
 
 ##ENUM
-El ENUM puede contener hasta 65.535 valores diferentes (y el vacio o cero) y esta catalogado dentro de los tipos de datos de string por la manera en la que se utiliza, ya que cada valor esta asociado a un string y se utiliza como si se entuviera ingresando o sacando strings que dentro del engine son representados por un valor numerico.
+El ENUM puede contener hasta 65.535 valores diferentes (y el vacio o cero) y esta catalogado dentro de los tipos de datos de string por la manera en la que se utiliza, ya que cada valor esta asociado a un string y se utiliza como si se entuviera ingresando o sacando strings que dentro del engine son representados por un valor numerico.  
+Al final de cuentas, cualquier tipo numerico, inclyendo el Bit puede ser utilizado de la misma manera que un Enum, con la unica diferencia que el valor que representa debera ser interpretado en la aplicación y no es tan legible en la base de datos.  
+La manera propuesta en ese caso, es usar un numero para representar un estado, teniendo solamente 1 valor al mismo tiempo salvado por cada dato, lo más usual es utilizar tiny o small ints ya que no se suelen manejar grandes cantidades de flags o estados.  
 
-Al final de cuentas, cualquier tipo numerico, inclyendo el Bit puede ser utilizado de la misma manera que un Enum, con la unica diferencia que el valor que representa debera ser interpretado en la aplicación y no es tan legible en la base de datos.
-
-La manera propuesta en ese caso, es usar un numero para representar un estado, teniendo solamente 1 valor al mismo tiempo salvado por cada dato, lo más usual es utilizar tiny o small ints ya que no se suelen manejar grandes cantidades de flags o estados.
-
-Un ejemplo de esto es utilizar un campo en la base de datos para indicar el estado actual de una cuenta bancaria, donde digamos que tenemos los siguientes estados: 
+Un ejemplo de esto es utilizar un campo en la base de datos para indicar el estado actual de una cuenta bancaria, donde digamos que tenemos los siguientes estados:   
 
 <table>
 <tr><th>Estado</th><th>Valor numerico</th></tr>
