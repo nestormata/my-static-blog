@@ -6,11 +6,11 @@ categories: Drupal
 tags: ['tutorial', 'Drupal', 'database schema', 'eficiencia']
 language: en
 permalink: 2010/06/04/how-set-index-length-drupal-database-schema-1471
+translation: es/2010/06/04/como-definir-tama-o-un-indice-database-schema-drupal-1472
 ---
 I believe that you must be really picky when you define a database in a project, that is one of the spots where you could be taking your project to success or failure in terms of performance.
 
-Drupal 6 and up has a very convenience way define your tables without using syntax for a specific database server, but, this sometimes could be a little limited when trying to set specific details like the index length, so, I'll explain to you how to achieve this specific feature.
-
+Drupal 6 and up has a very convenience way define your tables without using syntax for a specific database server, but, this sometimes could be a little limited when trying to set specific details like the index length, so, I'll explain to you how to achieve this specific feature.   
 There are cases that you may for example have a char field in your database and you want to have an index on that field, but you don't need an index of all the text, you could improve the searches by adding only the first part of this text in the index reducing the size of this index.
 
 To achieve that in MySql you would do something like this:

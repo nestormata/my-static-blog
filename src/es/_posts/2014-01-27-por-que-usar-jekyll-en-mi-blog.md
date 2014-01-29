@@ -11,7 +11,7 @@ series: [
 ---
 [Jekyll](http://jekyllrb.com/) es un generador estático diseñado para blogs.  
 ¿Por qué esto es mejor que un sistema dinámico como [Drupal](http://drupal.org/) o [Wordpress](http://wordpress.org/)?
-![Jekyll](/images/jekyll-logo.png "Jekyll")
+{{ '/images/jekyll-logo.png' | img_tag: 'article-main-image' }}
 
 ##¿Por qué Jekyll?
 Realmente no creo que uno sea mejor que el otro, simplemente son diferentes soluciones al mismo problema y depende de las

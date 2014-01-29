@@ -11,7 +11,7 @@ series: [
 ---
 Ya que entendemos porque puede ser una opción razonable trabajar con Jekyll
 ahora puedo explicarles como fue que lo hicé.
-![Jekyll](/images/jekyll-logo.png "Jekyll")
+{{ '/images/jekyll-logo.png' | img_tag: 'article-main-image' }}
 
 ##Instalación y configuración de Jekyll
 No pienso repetir lo que se encuentra en el sitio oficial, así que para las

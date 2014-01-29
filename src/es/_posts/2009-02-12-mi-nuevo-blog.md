@@ -5,7 +5,10 @@ created: 1234454510
 categories: Personal
 language: es
 permalink: es/2009/02/12/mi-nuevo-blog-2
+translation: 2009/02/11/my-new-blog-1
 ---
-<p>Hoy estoy empezando mi nuevo blog.</p>
-<p>Aqui espero poner temas interesantes para todos.</p>
-<p>Nestor</p>
+Hoy estoy empezando mi nuevo blog.
+
+Aqui espero poner temas interesantes para todos.
+
+Nestor

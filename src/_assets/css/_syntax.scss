@@ -1,4 +1,7 @@
-.highlight  { background: #ffffff; width: 100%; overflow-x:scroll;padding: 0.5em;border: 1px solid #CCC; }
+pre { width: 100% }
+pre > code {margin-bottom: 0.5em; display:block;}
+p > code, li > code {background: #ffffff;border: 1px solid #CCC; padding: 0.25em;}
+.highlight, pre > code { background: #ffffff; width: 100%; overflow-x:scroll;padding: 0.5em;border: 1px solid #CCC; }
 .highlight code { font-weight: normal;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
