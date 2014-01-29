@@ -30,7 +30,7 @@ layout: default
 
     {% if page.series != nil %}
       <div class="series-panel panel callout radius">
-        <h3>{% if post.language == 'es' %}Serie{% else %}Series{% endif %}</h3>
+        <h3>{% if page.language == 'es' %}Esta serie{% else %}This series{% endif %}</h3>
         <ul>
           {% for serie in page.series %}
             <li><a href="{{ serie[1] }}">{{ serie[0] }}</a></li>
@@ -42,6 +42,14 @@ layout: default
     {% if page.custom_segment != nil %}
       <div class="custom-segment">
         {{ page.custom_segment }}
+      </div>
+    {% endif %}
+
+    {% if page.video_base != nil %}
+      <div class="video-segment">
+        <a href="{{ page.video_base }}.mov" rel="qtposter">
+          <img src="{{ page.video_base }}.jpg" width="100%" alt="{{ page.title }}"/>
+        </a>
       </div>
     {% endif %}
 

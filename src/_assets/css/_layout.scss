@@ -115,8 +115,14 @@ div.social-bar.panel {
 }
 .series-panel {
   float: right;
-  margin-right: -2em;
-  width: 30%;
+  margin-right: -3em;
+}
+.series-panel ul {
+  list-style: none;
+}
+.series-panel ul li {
+  border-top: 1px dotted $primary-color;
+  margin-bottom: 0.5em;
 }
 @media #{$small-only} {
   .series-panel {
@@ -125,8 +131,9 @@ div.social-bar.panel {
     width: auto;
   }
 }
-@media #{$medium-only} {
+@media #{$medium-up} {
   .series-panel {
     width: 50%;
+    margin-left: 1em;
   }
 }
