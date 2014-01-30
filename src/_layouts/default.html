@@ -21,6 +21,7 @@
 
         {% css_asset_tag global_css %}
           - /_assets/css/app.scss
+          - /_components/extlink/extlink.css
         {% endcss_asset_tag %}
         {% javascript_asset_tag global_js %}
           - /_components/modernizr/modernizr.js
@@ -120,6 +121,7 @@
         - /_components/foundation/js/foundation.min.js
         - /_assets/js/app.js
         - /_components/responsive-nav/responsive-nav.js
+        - /_components/extlink/extlink.js
       {% endjavascript_asset_tag %}
       <script>
         var nav = responsiveNav(".nav-collapse", {
