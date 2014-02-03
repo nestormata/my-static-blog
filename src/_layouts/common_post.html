@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="panel post-page">
+<div class="panel post-page" itemtype="http://data-vocabulary.org/BlogPosting">
   {% capture time %}{{ content | reading_time }}{% endcapture %}
   <div class="label">
     {% if page.lang == 'es' %}
@@ -10,13 +10,15 @@ layout: default
       Reading time: {{ time }} {% if time == '1' %}minute{% else %}minutes{% endif %}
     {% endif %}
   </div>
+  <meta itemprop="wordCount" content="{{ content | count_words }}" />
 
-  <div class="label date-label">
+  <div class="label date-label" itemprop="datePublished" datetime="{{ page.date }}">
     <div>{{ page.date | localize: page.lang, '%d' }}</div>
     <div>{{ page.date | localize: page.lang, '%b' }}</div>
     <div>{{ page.date | localize: page.lang, '%Y' }}</div>
   </div>
   <h1>{{ page.title }}</h1>
+  <div class="author-name" itemtype="http://data-vocabulary.org/Person">{% if page.language == 'es' %}Por{% else %}By{% endif %} <span itemprop="name">Nestor Mata Cuthbert</span></div>
 
   <div class="post">
     <div class="social-bar panel radius">
@@ -53,7 +55,9 @@ layout: default
       </div>
     {% endif %}
 
+    <div class="post-body" itemprop="articleBody">
     {{ content }}
+    </div>
 
   </div>
 </div>
