@@ -5,7 +5,7 @@ created: 1259674875
 categories: Personal
 tags: ['dns', 'opendns', 'como', 'configurar', 'problemas']
 language: es
-permalink: es/2009/12/01/como-configurar-opendns-que-hago-cuando-tengo-problemas-dns-1466
+permalink: es/2009/12/01/como-configurar-opendns-que-hago-cuando-tengo-problemas-dns-1466/
 ---
 {{ '/images/opendns.gif' | img_tag: 'article-image', '', 'OpenDNS como configurarlo', 93, 37 }}
 Si sueles tener problemas de __DNS__, si vives en __Costa Rica__ probablemente de vez en cuando los tienes con el __ICE, RACSA o CableModem__, o simplemente quieres tener más __control para restringir accesso a páginas o sitios con contenidos obsenos__ o quieres estar un poco más seguro en contra del __phishing__, entonces __OpenDNS__ es una buena opcción.

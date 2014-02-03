@@ -5,8 +5,8 @@ created: 1235656438
 categories: Personal
 tags: ['ipod touch', 'contactos', 'google', 'gmail', 'iphone', 'sync', 'calendario', 'synchronizar']
 language: en
-permalink: 2009/02/26/google-synchronize-calendar-and-contacts-your-iphoneipod-touch-10
-translation: es/2009/02/26/google-sincroniza-contactos-y-calendario-su-iphoneipod-touch-11
+permalink: 2009/02/26/google-synchronize-calendar-and-contacts-your-iphoneipod-touch-10/
+translation: es/2009/02/26/google-sincroniza-contactos-y-calendario-su-iphoneipod-touch-11/
 ---
 {{ '/sites/nestor.redesprofesionales.com/files/sync-48x48.gif' | img_tag: 'main-article-image', '', 'Google Sync Calendar Contacts with iPhone/iPod Touch', 48, 48 }}
 Google has created a exchange interface to enable you to synchronize your calendar events and your contacts from Gmail with your iPhone/iPod Touch. Check it out here [Mobile Sync](http://www.google.com/mobile/apple/sync.html)

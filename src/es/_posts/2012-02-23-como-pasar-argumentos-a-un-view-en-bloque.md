@@ -5,7 +5,7 @@ created: 1330025806
 categories: Drupal
 tags: ['Drupal', 'bloque', 'view']
 language: es
-permalink: es/2012/02/23/como-pasar-argumentos-un-view-bloque-1484
+permalink: es/2012/02/23/como-pasar-argumentos-un-view-bloque-1484/
 ---
 Necesitaba poner varios bloques en una pagina siendo este bloque un view y la unica diferencia era el termino de taxonomia.
 

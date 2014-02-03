@@ -5,8 +5,8 @@ created: 1300811269
 categories: Personal
 tags: ['ipod touch', 'iphone', 'imovie', 'ipad', 'import video']
 language: en
-permalink: 2011/03/22/how-import-other-camera-videos-imovie-iphone-ipad-or-ipod-touch-1474
-translation: es/2011/03/23/como-utilizar-videos-tomados-otras-camaras-imovie-app-para-iphone-ipad-o-ipod-touch-1475
+permalink: 2011/03/22/how-import-other-camera-videos-imovie-iphone-ipad-or-ipod-touch-1474/
+translation: es/2011/03/23/como-utilizar-videos-tomados-otras-camaras-imovie-app-para-iphone-ipad-o-ipod-touch-1475/
 ---
 I just bought the 4th generation __iPod Touch__ (this also applies to __iPad__ and __iPhone__) and I wanted to use __iMovie app__ to create videos using my __previous videos taken with my other camera__, but this seems to not be possible, well, let me explain you how to achieve this.
 

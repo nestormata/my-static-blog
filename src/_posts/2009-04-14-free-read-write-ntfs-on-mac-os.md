@@ -5,7 +5,7 @@ created: 1239730245
 categories: Personal
 tags: ['mac', 'mac os', 'ntfs', 'read', 'write', 'macfuse', 'free']
 language: en
-permalink: 2009/04/14/free-readwrite-ntfs-mac-os-14
+permalink: 2009/04/14/free-readwrite-ntfs-mac-os-14/
 ---
 Since I'm running Mac OS X on my HP laptop, I was running into the problem of how to read/write to my Windows NTFS partitions.
 

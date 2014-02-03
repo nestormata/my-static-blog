@@ -5,7 +5,7 @@ created: 1303769654
 categories: Drupal
 tags: ['Drupal', 'eficiencia', 'MySql', 'Base de Datos', 'PHP']
 language: es
-permalink: es/2011/04/25/bits-bytes-nibles-sets-enums-flags-php-mysql-y-drupal-pro-eficiencia-1476
+permalink: es/2011/04/25/bits-bytes-nibles-sets-enums-flags-php-mysql-y-drupal-pro-eficiencia-1476/
 ---
 Es posible sacar más provecho al espacio y los datos en la base de datos y el codigo, y es de hecho muy importante, para algunos enfoques se puede utilizar datos a nivel de bits de manera eficiente, tanto en el codigo PHP, MySQL y en Drupal.
 

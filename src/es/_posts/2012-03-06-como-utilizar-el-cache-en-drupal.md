@@ -5,7 +5,7 @@ created: 1331065997
 categories: Drupal
 tags: ['cache', 'Drupal', 'performance', 'rendimiento']
 language: es
-permalink: es/2012/03/06/como-utilizar-cache-drupal-1486
+permalink: es/2012/03/06/como-utilizar-cache-drupal-1486/
 ---
 ## Como funciona?
 Lo primero que debemos entender es como funciona el cache de Drupal.

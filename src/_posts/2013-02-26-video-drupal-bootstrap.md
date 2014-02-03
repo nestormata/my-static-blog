@@ -5,7 +5,7 @@ created: 2013-02-26 17:52:52
 categories: Drupal
 tags: ['Drupal', 'boostrap']
 language: en
-permalink: video/drupal-bootstrap
+permalink: video/drupal-bootstrap/
 video_base: http://c2d15aa8025b7712e74e-1505847d119f604454ecf19a71b54755.r53.cf1.rackcdn.com/drupal_bootstrap
 ---
 Description

@@ -5,7 +5,7 @@ created: 1249323284
 categories: Personal
 tags: ['pensamiento', 'identidad']
 language: es
-permalink: es/2009/08/03/identidad-1155
+permalink: es/2009/08/03/identidad-1155/
 ---
 Hoy despierto, abro los ojos, un día más, un dia después de acumular piedras a mis espaldas, llagas en mis hombros, dolor en mis piernas, el corazón mallugado y en la boca el sin sabor.
 

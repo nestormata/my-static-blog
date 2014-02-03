@@ -5,8 +5,8 @@ created: 1275698511
 categories: Drupal
 tags: ['tutorial', 'Drupal', 'database schema', 'eficiencia']
 language: es
-permalink: es/2010/06/04/como-definir-tama-o-un-indice-database-schema-drupal-1472
-translation: 2010/06/04/how-set-index-length-drupal-database-schema-1471
+permalink: es/2010/06/04/como-definir-tama-o-un-indice-database-schema-drupal-1472/
+translation: 2010/06/04/how-set-index-length-drupal-database-schema-1471/
 ---
 Considero que se debe ser muy cuidadoso y detallado a la hora de definir las bases de datos en un proyecto, es ahi uno de los puntos que garantizaran el éxito o el fracaso en términos de eficiencia.
 

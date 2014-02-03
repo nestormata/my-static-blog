@@ -11,7 +11,7 @@ series: [
   ['3. Pressflow y Drupal 7, Distribuciones de rendimiento', '/es/book/pressflow-y-drupal-7-distribuciones-rendimiento/'],
   ['4. El cache de Drupal', '/es/book/cache-drupal/'],
   ['5. Drupal y Content Delivery Network (CDN)', '/es/book/drupal-y-content-delivery-network-cdn/'],
-  ['6. Varnish, Reverse Proxy y ESI', '/es/book/varnish-reverse-proxy-y-esi'],
+  ['6. Varnish, Reverse Proxy y ESI', '/es/book/varnish-reverse-proxy-y-esi/'],
 ]
 ---
 A grandes razgos hay varias formas de optimizar Drupal y lo recomendable es utilizar varias de estas para un resultado óptimo, pero no solo se trata de optimizar por optimizar, sino encontrar cuales optimizaciones son las que lograrian mayor beneficio para cada caso, por eso mi intencion tambien es discutir en cuales situaciones se debe utilizar cada metodo.

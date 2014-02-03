@@ -5,7 +5,7 @@ created: 1330363485
 categories: Drupal
 tags: ['Drupal', 'estructura', 'guia', 'planeamiento']
 language: es
-permalink: es/2012/02/27/como-estructurar-drupal-planear-y-hacerlo-bien-desde-inicio-1485
+permalink: es/2012/02/27/como-estructurar-drupal-planear-y-hacerlo-bien-desde-inicio-1485/
 ---
 ## Punto de vista Físico
 En este me enfocaré en la localización de archivos y directorios.   

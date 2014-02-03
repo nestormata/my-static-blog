@@ -5,7 +5,7 @@ created: 1328849620
 categories: Drupal
 tags: ['Drupal', 'imagecache', 'Drupal 6']
 language: es
-permalink: es/2012/02/09/como-importar-imagecache-presets-drupal-1483
+permalink: es/2012/02/09/como-importar-imagecache-presets-drupal-1483/
 ---
 Hoy tuve la necesidad de importar una serie de presets de imagecache desde otro sitio.  
 En las características de imagecache aparece la opción de exportar, pero no hay opción alguna para importar.  

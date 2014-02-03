@@ -4,8 +4,8 @@ title: How to use the iPod Touch as an VoIP phone with Skype, gTalk or live
 created: 1234536451
 categories: Personal
 language: en
-permalink: 2009/02/13/how-use-ipod-touch-voip-phone-skype-gtalk-or-live-5
-translation: es/2009/02/13/como-usar-ipod-touch-como-un-tel-fono-voip-skype-gtalk-o-live-6
+permalink: 2009/02/13/how-use-ipod-touch-voip-phone-skype-gtalk-or-live-5/
+translation: es/2009/02/13/como-usar-ipod-touch-como-un-tel-fono-voip-skype-gtalk-o-live-6/
 ---
 __Updated:__ Since one of the _iPhone OS 3.x.x_ they made the _Macally iVoiceIII_ _not compatible_, this is actually not true, if you just turned on your _iPod Touch_ it will work for about 20 seconds, so this is a software fix from them to __disallow it__. As far as my investigation goes, this only happens on __iPod Touch 1st generation__, some people has reported that the __Macally iVoicePro__ does do work with __iPod Touch 1st generation__.
 

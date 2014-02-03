@@ -5,7 +5,7 @@ created: 1245704096
 categories: Personal
 tags: ['hija', 'pensamiento', 'amor', 'bendición', 'legado', 'vida', 'milagro']
 language: es
-permalink: es/2009/06/22/reflexion-un-padre-21
+permalink: es/2009/06/22/reflexion-un-padre-21/
 ---
 Ayer festejé algo, algo que ocurrió, algo que soy, algo que siempre seré sin importar lo que pase.
 

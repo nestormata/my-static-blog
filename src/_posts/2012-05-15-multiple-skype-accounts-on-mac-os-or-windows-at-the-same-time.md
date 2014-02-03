@@ -5,8 +5,8 @@ created: 1337114807
 categories: Personal
 tags: ['tip', 'skype', 'multiple accounts', 'Windows', 'mac os' ]
 language: en
-permalink: technology/multiple-skype-accounts-mac-os-or-windows-same-time
-translation: es/technology/multiples-cuentas-skype-al-mismo-tiempo-mac-os-o-windows
+permalink: technology/multiple-skype-accounts-mac-os-or-windows-same-time/
+translation: es/technology/multiples-cuentas-skype-al-mismo-tiempo-mac-os-o-windows/
 ---
 I use a personal Skype account and another Skype account for the company I work for, and then I have the problem of how can I have both accounts opened.
 

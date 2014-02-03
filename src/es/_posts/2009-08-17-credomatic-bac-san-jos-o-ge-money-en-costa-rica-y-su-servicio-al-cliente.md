@@ -5,7 +5,7 @@ created: 1250528897
 categories: Personal
 tags: ['banco', 'análisis', 'atención', 'cliente']
 language: es
-permalink: es/2009/08/17/credomatic-bac-san-jos-o-ge-money-costa-rica-y-su-servicio-al-cliente-1462
+permalink: es/2009/08/17/credomatic-bac-san-jos-o-ge-money-costa-rica-y-su-servicio-al-cliente-1462/
 excerpt: Si usted es o ha sido cliente de Credomatic, el BAC San José o GE Money sabrá que a pesar de ser probalemente el mejor y más grande banco privado en Costa Rica y con una gran presencia en Centroamerica, eso no ha evitado muchas veces que nos brinden un mal servicio
 ---
 <img width="241" height="33" border="0" align="left" src="https://www.bac.net/bacsanjose/img/fhcrcbac.gif" alt="Credomatic, BAC San José, GE Money Costa Rica Servicio al Cliente" />

@@ -5,7 +5,7 @@ categories: Drupal
 tags: ['optimización', 'Drupal', 'varnish', 'rendimiento']
 language: es
 created: 2011-09-22 09:04:38
-permalink: es/book/varnish-reverse-proxy-y-esi
+permalink: es/book/varnish-reverse-proxy-y-esi/
 series: [
   ['1. ¿Como optimizar Drupal para alto rendimiento?', '/es/book/como-optimizar-drupal-para-alto-rendimiento/'],
   ['2. Drupal y los recursos del servidor web', '/es/book/drupal-y-recursos-del-servidor-web/'],

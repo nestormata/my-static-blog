@@ -5,8 +5,8 @@ created: 1275697182
 categories: Drupal
 tags: ['tutorial', 'Drupal', 'database schema', 'eficiencia']
 language: en
-permalink: 2010/06/04/how-set-index-length-drupal-database-schema-1471
-translation: es/2010/06/04/como-definir-tama-o-un-indice-database-schema-drupal-1472
+permalink: 2010/06/04/how-set-index-length-drupal-database-schema-1471/
+translation: es/2010/06/04/como-definir-tama-o-un-indice-database-schema-drupal-1472/
 ---
 I believe that you must be really picky when you define a database in a project, that is one of the spots where you could be taking your project to success or failure in terms of performance.
 

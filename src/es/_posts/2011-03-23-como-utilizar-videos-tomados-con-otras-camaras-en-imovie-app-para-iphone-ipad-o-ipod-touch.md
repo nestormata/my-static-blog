@@ -5,8 +5,8 @@ created: 1300890822
 categories: Personal
 tags: ['ipod touch', 'iphone', 'imovie', 'ipad', 'importar video']
 language: es
-permalink: es/2011/03/23/como-utilizar-videos-tomados-otras-camaras-imovie-app-para-iphone-ipad-o-ipod-touch-1475
-translation: 2011/03/22/how-import-other-camera-videos-imovie-iphone-ipad-or-ipod-touch-1474
+permalink: es/2011/03/23/como-utilizar-videos-tomados-otras-camaras-imovie-app-para-iphone-ipad-o-ipod-touch-1475/
+translation: 2011/03/22/how-import-other-camera-videos-imovie-iphone-ipad-or-ipod-touch-1474/
 ---
 Recientemente compré el __iPod Touch__ de 4ta generación (también aplica al __iPad__ y al __iPhone__) e intenté usar videos que habia tomado previamente en mi camara, pero el __iMovie app__ no me muestra estos videos para utilizarlos, solo me muestra los que se tomaron con el mismo iPod Touch, aquí les enseñaré como lograr usar otros videos en el __iMovie app__.
 

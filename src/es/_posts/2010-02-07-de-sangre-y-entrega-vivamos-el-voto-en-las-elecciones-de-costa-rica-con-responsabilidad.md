@@ -5,7 +5,7 @@ created: 1265549944
 categories: Personal
 tags: ['Costa Rica', 'votaciones', '2010', 'voto', 'presidencia', 'democracia', 'elecciones', 'planes', 'gobierno', 'responsabilidad']
 language: es
-permalink: es/2010/02/07/sangre-y-entrega-vivamos-voto-las-elecciones-costa-rica-responsabilidad-1470
+permalink: es/2010/02/07/sangre-y-entrega-vivamos-voto-las-elecciones-costa-rica-responsabilidad-1470/
 ---
 En el mundo se han librado batallas y derramado la sangre por la consigna de la libertad, por la capacidad de elegir libremente, de decidir.
 

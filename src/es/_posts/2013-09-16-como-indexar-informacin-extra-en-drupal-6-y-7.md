@@ -5,8 +5,8 @@ created: 1379365135
 categories: Drupal
 tags: ['Drupal', 'index', 'motor de búsqueda', 'indice']
 language: es
-permalink: es/desarrollo/como-indexar-informacion-extra-drupal-6-y-7
-translation: development/how-index-extra-data-drupal-6-and-7
+permalink: es/desarrollo/como-indexar-informacion-extra-drupal-6-y-7/
+translation: development/how-index-extra-data-drupal-6-and-7/
 ---
 Es muy sencillo agregar palabras para ser indexadas en un nodo o entidad en Drupal de manera que el nodo se encuentre por estas palabras aún si estas palabras no se encuentran en el texto o si se desea agregarles mayor relevancia.
 

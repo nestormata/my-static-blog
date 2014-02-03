@@ -11,7 +11,7 @@ series: [
   ['3. Pressflow y Drupal 7, Distribuciones de rendimiento', '/es/book/pressflow-y-drupal-7-distribuciones-rendimiento/'],
   ['4. El cache de Drupal', '/es/book/cache-drupal/'],
   ['5. Drupal y Content Delivery Network (CDN)', '/es/book/drupal-y-content-delivery-network-cdn/'],
-  ['6. Varnish, Reverse Proxy y ESI', '/es/book/varnish-reverse-proxy-y-esi'],
+  ['6. Varnish, Reverse Proxy y ESI', '/es/book/varnish-reverse-proxy-y-esi/'],
 ]
 ---
 El servidor tiene recursos limitados y por tanto una cantidad limitada de solicitudes que puede atender simultáneamente.

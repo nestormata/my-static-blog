@@ -5,7 +5,7 @@ created: 1377533143
 categories: Personal
 tags: ['Book Review']
 language: en
-permalink: book/see-what-i-mean-kevin-cheng-rosenfeld-media
+permalink: book/see-what-i-mean-kevin-cheng-rosenfeld-media/
 excerpt: Book review for See What I Mean By Kevin Cheng, Rosenfeld Media
 ---
 <h2>See What I Mean</h2>

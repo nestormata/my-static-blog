@@ -11,7 +11,7 @@ series: [
   ['2. Drupal y los recursos del servidor web', '/es/book/drupal-y-recursos-del-servidor-web/'],
   ['4. El cache de Drupal', '/es/book/cache-drupal/'],
   ['5. Drupal y Content Delivery Network (CDN)', '/es/book/drupal-y-content-delivery-network-cdn/'],
-  ['6. Varnish, Reverse Proxy y ESI', '/es/book/varnish-reverse-proxy-y-esi'],
+  ['6. Varnish, Reverse Proxy y ESI', '/es/book/varnish-reverse-proxy-y-esi/'],
 ]
 ---
 Siempre hay una desición en cuanto a cuanto soporte dar hacia versiones anteriores o a los requisitos de un sistema o plataforma.  

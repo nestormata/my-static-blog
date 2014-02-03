@@ -5,7 +5,7 @@ created: 1259879298
 categories: Personal
 tags: ['cdn', 'servidor', 'web', 'iis', 'apache', 'optimización']
 language: es
-permalink: es/2009/12/03/tutorial-content-delivery-network-cdn-1469
+permalink: es/2009/12/03/tutorial-content-delivery-network-cdn-1469/
 ---
 ### Introducción
 Hace años las computadoras no solían tener la cantidad de recursos que tienen actualmente, por lo que se debía ser muy cuidadoso con el uso responsable y eficiente de los servidores.

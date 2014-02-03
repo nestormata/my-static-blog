@@ -5,7 +5,7 @@ created: 1335100433
 categories: Drupal
 tags: ['Drupal', 'SEO', 'DrupalCamp Costa Rica 2012']
 language: es
-permalink: es/drupalcamp/seo-drupal-search-engine-optimization
+permalink: es/drupalcamp/seo-drupal-search-engine-optimization/
 excerpt: Porque es importante el SEO?
 custom_segment: <iframe src="http://player.vimeo.com/video/40845076?title=0&amp;amp;byline=0&amp;amp;portrait=0" width="400" height="300" frameborder="0" webkitAllowFullScreen="" mozallowfullscreen="" allowFullScreen=""></iframe>
 ---

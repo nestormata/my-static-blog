@@ -5,7 +5,7 @@ created: 1288892930
 categories: Personal
 tags: ['desarrollo', '.Net', 'web.config', 'tip', 'visual studio', 'programación']
 language: es
-permalink: es/2010/11/04/como-usar-diferentes-webconfig-para-cada-ambiente-transformaciones-webconfig-1473
+permalink: es/2010/11/04/como-usar-diferentes-webconfig-para-cada-ambiente-transformaciones-webconfig-1473/
 ---
 En *.Net framework 4 (Visual Studio 2010)* ahora hay una funcionalidad que permite tener *diferentes configuraciones del web.config* para cada ambiente de desarrollo, pruebas y/o producción. Una solución para un problema de siempre.
 

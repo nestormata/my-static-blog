@@ -5,7 +5,7 @@ created: 1241738699
 categories: Personal
 tags: ['ipod touch', 'iphone', 'os 3.0', 'apple', 'compatible', 'new']
 language: en
-permalink: 2009/05/07/all-apps-must-be-compatible-iphone-os-30-20
+permalink: 2009/05/07/all-apps-must-be-compatible-iphone-os-30-20/
 ---
 Apple is enforcing every iPhone/iPod Touch developer to ensure that their applications are compatible with the new iPhone OS 3.0 (which right now is in beta 5 version).
 

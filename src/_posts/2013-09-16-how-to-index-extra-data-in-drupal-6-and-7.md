@@ -5,8 +5,8 @@ created: 1379363567
 categories: Drupal
 tags: ['Drupal', 'index', 'search engine', 'update index']
 language: en
-permalink: development/how-index-extra-data-drupal-6-and-7
-translation: es/desarrollo/como-indexar-informacion-extra-drupal-6-y-7
+permalink: development/how-index-extra-data-drupal-6-and-7/
+translation: es/desarrollo/como-indexar-informacion-extra-drupal-6-y-7/
 ---
 It is very easy to add words to be indexed with a node or entity in Drupal in order for the node to also be found when those words are used for search or even to alter the importance of some words.
 

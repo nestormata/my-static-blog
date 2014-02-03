@@ -5,7 +5,7 @@ created: 1334921300
 categories: Drupal
 tags: ['Drupal', 'DrupalCamp Costa Rica 2012']
 language: es
-permalink: es/drupalcamp-costa-rica
+permalink: es/drupalcamp-costa-rica/
 excerpt: Este sabado 21 de Abril se dará el Drupal Camp Costa Rica, donde estaré ofreciendo 2 charlas que pueden ver aquí en vivo.
 ---
 {{ '/sites/files/drupalcamp.png' | img_tag: 'article-image', '', 'Drupal Camp Costa Rica', 243, 148 }}

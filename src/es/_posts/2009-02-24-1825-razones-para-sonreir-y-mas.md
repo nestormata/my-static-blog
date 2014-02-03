@@ -5,7 +5,7 @@ created: 1235483542
 categories: Personal
 tags: ['cumpleaños', 'pensamiento', 'amor', 'bendición', 'legado', 'vida', 'milagro']
 language: es
-permalink: es/2009/02/24/1825-razones-para-sonreir-y-mas-9
+permalink: es/2009/02/24/1825-razones-para-sonreir-y-mas-9/
 ---
 Hoy son 1825 días desde tu nacimiento, 1825 días de felicidad, 1825 días multiplicados por muchas razones para disfrutar cada día.
 

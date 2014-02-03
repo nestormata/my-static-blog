@@ -5,7 +5,7 @@ created: 1246997490
 categories: Personal
 tags: ['google', 'gmail', 'beta', 'mail']
 language: es
-permalink: es/2009/07/07/gmail-ya-no-es-beta-494
+permalink: es/2009/07/07/gmail-ya-no-es-beta-494/
 ---
 {{ 'http://mail.google.com/mail/images/2/5/logo1.png' | img_tag: 'article-main-image', '', '', 143, 59 }}
 Google GMail ha sido identificada como Beta desde su lanzamiento hace ya casi una decada, las razones de mantenerlo como Beta no son del todo conocidas, podria ser para no asumir una responsabilidad en caso de algun fallo, no crear falsas espectativas, por mercadeo o quien sabe, pero el hecho es que a partir de hoy ya no aparece la palabra Beta en el logo de GMail.

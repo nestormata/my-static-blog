@@ -5,7 +5,7 @@ created: 1335223847
 categories: Drupal
 tags: ['Drupal', 'deployment', 'servidor', 'control versiones', 'svn', 'git']
 language: es
-permalink: es/drupal-deployments-y-ciclo-desarrollo
+permalink: es/drupal-deployments-y-ciclo-desarrollo/
 ---
 ## El problema
 Cuando trabajamos en nuestro ambiente local, todo esta bien, pero cuando tenemos que desarrollar para sitios en linea, cuando tenemos equipos de trabajo, cuando tenemos múltiples servidor y diferentes ambientes se puede tornar un poco complicado y propenso a errores.

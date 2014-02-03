@@ -5,7 +5,7 @@ created: 1250127911
 categories: Personal
 tags: ['legal', 'microsoft', 'i4i', 'office', 'word', 'open source', 'sell', 'xml', 'format']
 language: es
-permalink: es/2009/08/13/microsoft-ya-no-puede-vender-word-estados-unidos-1461
+permalink: es/2009/08/13/microsoft-ya-no-puede-vender-word-estados-unidos-1461/
 ---
 Un juez de Texas dictaminó el martes que Microsoft no puede vender uno de sus productos emblemáticos, Word, en los Estados Unidos a causa de una infracción de patente.
 

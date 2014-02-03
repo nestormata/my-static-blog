@@ -5,8 +5,8 @@ created: 1337116146
 categories: Personal
 tags: ['tip', 'skype', 'multiples cuentas', 'Windows', 'mac os' ]
 language: es
-permalink: es/technology/multiples-cuentas-skype-al-mismo-tiempo-mac-os-o-windows
-translation: technology/multiple-skype-accounts-mac-os-or-windows-same-time
+permalink: es/technology/multiples-cuentas-skype-al-mismo-tiempo-mac-os-o-windows/
+translation: technology/multiple-skype-accounts-mac-os-or-windows-same-time/
 ---
 Yo uso una cuenta de Skype personal y otra para la compañia para la que trabajo y por lo tanto tuve que encontrar una solución para tener ambas funcionando al mismo tiempo.
 
