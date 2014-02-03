@@ -4,9 +4,10 @@ title: ¿Por qué usar Jekyll en mi blog?
 categories: Jekyll
 tags: ['jekyll', 'blog', 'foundation']
 language: es
-translation: 
+translation: jekyll/2014/02/03/why-use-jekyll-in-my-blog/
 series: [
-  ['¿Como trabajar con Jekyll?', '/es/2014/01/28/como-trabajar-con-jekyll/']
+  ['2. ¿Como trabajar con Jekyll?', '/es/2014/01/28/como-trabajar-con-jekyll/'],
+  ['3. Posts y Drafts en Jekyll', '/es/2014/02/03/posts-y-drafts-jekyll/']
 ]
 ---
 [Jekyll](http://jekyllrb.com/) es un generador estático diseñado para blogs.  
