@@ -28,7 +28,6 @@
           - /_components/modernizr/modernizr.js
         {% endjavascript_asset_tag %}
 
-
     </head>
     <body class="lang-{{ page.lang }}">
 <script>
@@ -40,6 +39,9 @@
   ga('create', 'UA-7448367-1', 'profesional.co.cr');
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
+  ga('set', 'dimension1', '{{ page.lang }}');
+  {% if page.categories != nil %}ga('set', 'dimension2', '{{ page.categories | array_to_sentence_string }}');{% endif %}
+  ga('set', 'dimension3', '{{ page.id }}');
 
 </script>
       <div class="main-nav row">
@@ -78,6 +80,15 @@
 
           <div id="main" class="clearfix">
             <div class="center-container">
+              <div class="small-12 columns top-area">
+                {% for block in site.data.topblocks %}
+                  {% if page.lang == 'es' %}
+                    {% include {{block.layout}} title=block.title_es body=block.content_es classes=block.classes %}
+                  {% else %}
+                    {% include {{block.layout}} title=block.title body=block.content classes=block.classes %}
+                  {% endif %}
+                {% endfor %}
+              </div>
               <div class="small-12 medium-4 medium-push-8 large-4 large-push-8 columns">
                 {% for block in site.data.sideblocks %}
                   {% if page.lang == 'es' %}
@@ -124,6 +135,27 @@
         - /_components/responsive-nav/responsive-nav.js
         - /_components/extlink/extlink.js
       {% endjavascript_asset_tag %}
+      {% if page.issearch %}
+        {% javascript_asset_tag lunr_js %}
+          - /_components/lunr/lunr.js
+          - /_components/lunr/jquery.mustache.js
+          - /_components/lunr/date.format.js
+          - /_components/lunr/URI.js
+          - /_components/lunr/jquery.lunr.search.js
+        {% endjavascript_asset_tag %}
+        <script type="text/javascript">
+          //$(function() {
+          (function() {
+            $('#search-query').lunrSearch({
+              indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+              results:  '#search-results',          // jQuery selector for the search results container
+              entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+              template: '#search-results-template'  // jQuery selector for the Mustache.js template
+            });
+          //});
+          })();
+        </script>
+      {% endif %}
       <script>
         var nav = responsiveNav(".nav-collapse", {
           label: {% if page.lang == 'es' %}"Menu"{% else %}"Menu"{% endif %},

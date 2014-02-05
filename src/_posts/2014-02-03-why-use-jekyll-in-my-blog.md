@@ -24,7 +24,7 @@ operative cost.
 For any additional feature that the site requires that needs more dinamicity you could combine Jekyll with options like Node.js
 or any application in any other language or platform.
 
-Besides these, Jekyll is build on [Ruby](https://www.ruby-lang.org/) and can easily be extended through pluggins.
+Besides these, Jekyll is build on [Ruby](https://www.ruby-lang.org/) and can easily be extended through plugins.
 
 Personally, the decision to migrate my blog to Jekyll is based on 3 reasons:
 - __Performance of my blog__: I want my blog to be as fast as possible and nothing beats static files.

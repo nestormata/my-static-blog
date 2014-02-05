@@ -10,6 +10,7 @@ excerpt: Book review for See What I Mean By Kevin Cheng, Rosenfeld Media
 ---
 <h2>See What I Mean</h2>
 <h3>How To Use Comics to Communicate Ideas</h3>
+
 <img src="/sites/files/cat.gif" />
 <p>This book is a clear guide to help you mock up your ideas and concepts for better reaching to your colleagues or clients. You don't need to be a caricaturist to use drawing as a tool to explain what you really mean.</p>
 <p>In this book the author guides you to a process of understanding the concepts of cartoon and how to apply this concepts in your advantage.</p>

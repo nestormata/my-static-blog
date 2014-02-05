@@ -1,0 +1,16 @@
+- layout: block_default.html
+  classes: search-block
+  content: |
+    <div id="search">
+      <form action="/search/" method="get">
+        <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off" />
+      </form>
+    </div>
+  content_es: |
+    <div id="search">
+      <form action="/es/buscar/" method="get">
+        <input type="text" id="search-query" name="q" placeholder="Buscar" autocomplete="off" />
+      </form>
+    </div>
+
+

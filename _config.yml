@@ -27,7 +27,6 @@ permalink:            pretty
 paginate:             5
 paginate_path:        'page:num'
 
-#markdown:     maruku
 markdown_ext: markdown,mkd,mkdn,md
 textile_ext:  textile
 
@@ -37,9 +36,10 @@ safe:         false
 host:         0.0.0.0
 port:         4000
 baseurl:      /
-url:          http://profesional.co.cr
-#url:          http://nestor.manantial
-#lsi:          false
+#url:          http://www.profesional.co.cr
+url:          http://nestor.manantial
+lsi:          false
+#lsi:          true
 
 rdiscount:
   extensions:     []
@@ -57,14 +57,16 @@ kramdown:
 
 redcloth:
   hard_breaks:    true
+lunr_search:
+  excludes: [rss.xml, atom.xml, sitemap.xml]
 
 asset_pipeline:
   bundle: true
   compress: true
   output_path: assets
-  gzip: true
-  display_path: /3cca053a28a5db4d7e2d-9c64834929b7793a1eba90da107ff905.r73.cf1.rackcdn.com/assets
+  gzip: false
+  #display_path: /3cca053a28a5db4d7e2d-9c64834929b7793a1eba90da107ff905.r73.cf1.rackcdn.com/assets
 
-liveload: false
+liveload: true
 rssurl: http://feeds.feedburner.com/SeniorWebDeveloper
 rssurles: http://feeds.feedburner.com/SeniorWebDeveloperEs

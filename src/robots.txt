@@ -6,3 +6,5 @@ Disallow: /images/
 Disallow: /sites/
 Disallow: /assets/
 Disallow: /404/
+Disallow: /search/
+Disallow: /es/buscar/
