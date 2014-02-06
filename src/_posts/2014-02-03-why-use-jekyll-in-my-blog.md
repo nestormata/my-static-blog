@@ -6,7 +6,7 @@ tags: ['jekyll', 'blog', 'foundation']
 language: en
 translation: es/2014/01/27/por-que-usar-jekyll-en-mi-blog/
 series: [
-  ['1. How to work with Jekyll?', 'jekyll/2014/02/06/how-to-work-with-jekyll/']
+  ['2. How to work with Jekyll?', '/jekyll/2014/02/06/how-to-work-with-jekyll/']
 ]
 ---
 [Jekyll](http://jekyllrb.com/) is an static site generator designed for blogs.
