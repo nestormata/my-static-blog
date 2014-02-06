@@ -1,1 +1,3 @@
-build.sass-cache
+build
+build/.sass-cache
+.sass-cache/
