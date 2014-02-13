@@ -4,9 +4,11 @@ title: Posts y Drafts en Jekyll
 categories: Jekyll
 tags: ['jekyll', 'markdown']
 language: es
+translation: jekyll/2014/02/06/how-to-work-with-jekyll/
 series: [
   ['1. ¿Por qué usar Jekyll en mi blog?', '/es/2014/01/27/por-que-usar-jekyll-en-mi-blog/'],
-  ['2. ¿Como trabajar con Jekyll?', '/es/2014/01/28/como-trabajar-con-jekyll/']
+  ['2. ¿Como trabajar con Jekyll?', '/es/2014/01/28/como-trabajar-con-jekyll/'],
+  ['4. ¿Qué es Markdown?', '/es/2014/02/11/que-es-markdown/']
 ]
 ---
 En esta tercera parte les explicaré como trabajar con posts y drafts en Jekyll.

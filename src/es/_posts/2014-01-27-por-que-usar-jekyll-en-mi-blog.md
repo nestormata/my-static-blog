@@ -7,7 +7,8 @@ language: es
 translation: 2014/02/06/how-to-work-with-jekyll/
 series: [
   ['2. ¿Como trabajar con Jekyll?', '/es/2014/01/28/como-trabajar-con-jekyll/'],
-  ['3. Posts y Drafts en Jekyll', '/es/2014/02/03/posts-y-drafts-jekyll/']
+  ['3. Posts y Drafts en Jekyll', '/es/2014/02/03/posts-y-drafts-jekyll/'],
+  ['4. ¿Qué es Markdown?', '/es/2014/02/11/que-es-markdown/']
 ]
 ---
 [Jekyll](http://jekyllrb.com/) es un generador estático diseñado para blogs.  
