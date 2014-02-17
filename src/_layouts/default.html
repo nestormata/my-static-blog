@@ -24,9 +24,6 @@
           - /_assets/css/app.scss
           - /_components/extlink/extlink.css
         {% endcss_asset_tag %}
-        {% javascript_asset_tag global_js %}
-          - /_components/modernizr/modernizr.js
-        {% endjavascript_asset_tag %}
 
     </head>
     <body class="lang-{{ page.lang }}">
@@ -118,8 +115,7 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <noscript>Please enable JavaScript to view the comments</noscript>
                 </div>
               </div>
             {% endif %}
@@ -128,6 +124,7 @@
           {% include footer.html %}
 
       {% javascript_asset_tag bottom_js %}
+        - /_components/modernizr/modernizr.js
         - /_components/jquery/jquery.js
         - /_components/fastclick/lib/fastclick.js
         - /_components/foundation/js/foundation.min.js
@@ -144,15 +141,14 @@
           - /_components/lunr/jquery.lunr.search.js
         {% endjavascript_asset_tag %}
         <script type="text/javascript">
-          //$(function() {
           (function() {
             $('#search-query').lunrSearch({
               indexUrl: '/search.json',             // URL of the `search.json` index data for your site
               results:  '#search-results',          // jQuery selector for the search results container
               entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
-              template: '#search-results-template'  // jQuery selector for the Mustache.js template
+              template: '#search-results-template',  // jQuery selector for the Mustache.js template
+              isError: {% if page.notfound %}true{% else %}false{% endif %}
             });
-          //});
           })();
         </script>
       {% endif %}

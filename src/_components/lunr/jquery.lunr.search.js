@@ -30,6 +30,7 @@
       this.indexDataUrl = options.indexUrl;
       this.index = this.createIndex();
       this.template = this.compileTemplate($(options.template));
+      this.isError = options.isError;
       
       this.initialize();
     };
@@ -39,7 +40,12 @@
       
       this.loadIndexData(function(data) {
         self.populateIndex(data);
-        self.populateSearchFromQuery();
+        // If is the not found error page populate from path, else populate from search query
+        if (self.isError) {
+          self.populateSearchFromNotFound();
+        } else {
+          self.populateSearchFromQuery();
+        }
         self.bindKeypress();
       });
     };
@@ -149,6 +155,16 @@
         this.search(queryString.q.toString());
       }
     };
+
+    // Populate the search input with the complete path words
+    LunrSearch.prototype.populateSearchFromNotFound = function() {
+      var uri = new URI(window.location.toString());
+      var segments = uri.segmentCoded();
+      var segmentsString = segments.join(" ").replace(/[-]/g, " ");
+
+      this.$elem.val(segmentsString);
+      this.search(segmentsString);
+    };
     
     return LunrSearch;
   })();
@@ -167,6 +183,7 @@
     indexUrl  : '/search.json',     // Url for the .json file containing search index source data (containing: title, url, date, body)
     results   : '#search-results',  // selector for containing search results element
     entries   : '.entries',         // selector for search entries containing element (contained within results above)
-    template  : '#search-results-template'  // selector for Mustache.js template
+    template  : '#search-results-template',  // selector for Mustache.js template
+    isError  : false  // To indicate if this is an error page and therefore get the correct population
   };
 })(jQuery);
