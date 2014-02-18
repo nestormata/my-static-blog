@@ -7,7 +7,8 @@ language: en
 translation: es/2014/01/28/como-trabajar-con-jekyll/
 series: [
   ['1. Why use Jekyll in my blog?', '/jekyll/2014/02/03/why-use-jekyll-in-my-blog/'],
-  ['3. Posts and Drafts in Jekyll', '/jekyll/2014/02/12/posts-and-drafts-jekyll/']
+  ['3. Posts and Drafts in Jekyll', '/jekyll/2014/02/12/posts-and-drafts-jekyll/'],
+  ['4. What is Markdown?', '/jekyll/2014/02/17/what-is-markdown/']
 ]
 ---
 Now that we understand why Jekyll could be a good option I can explain

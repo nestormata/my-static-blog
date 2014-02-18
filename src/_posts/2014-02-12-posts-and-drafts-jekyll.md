@@ -7,7 +7,8 @@ language: en
 translation: es/2014/02/03/posts-y-drafts-jekyll/
 series: [
   ['1. Why use Jekyll in my blog?', '/jekyll/2014/02/03/why-use-jekyll-in-my-blog/'],
-  ['2. How to work with Jekyll?', '/jekyll/2014/02/06/how-to-work-with-jekyll/']
+  ['2. How to work with Jekyll?', '/jekyll/2014/02/06/how-to-work-with-jekyll/'],
+  ['4. What is Markdown?', '/jekyll/2014/02/17/what-is-markdown/']
 ]
 ---
 In this third part I'll explain how to work with posts and drafts in

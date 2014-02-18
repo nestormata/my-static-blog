@@ -4,6 +4,7 @@ title: ¿Qué es Markdown?
 categories: Jekyll
 tags: ['jekyll', 'markdown']
 language: es
+translation: jekyll/2014/02/17/what-is-markdown/
 series: [
   ['1. ¿Por qué usar Jekyll en mi blog?', '/es/2014/01/27/por-que-usar-jekyll-en-mi-blog/'],
   ['2. ¿Como trabajar con Jekyll?', '/es/2014/01/28/como-trabajar-con-jekyll/'],
