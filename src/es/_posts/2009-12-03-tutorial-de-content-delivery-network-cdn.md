@@ -5,6 +5,7 @@ created: 1259879298
 categories: Personal
 tags: ['cdn', 'servidor', 'web', 'iis', 'apache', 'optimización']
 language: es
+thumbnail: http://www.profesional.co.cr/sites/nestor.profesional.co.cr/files/cdn_cloud.png
 permalink: es/2009/12/03/tutorial-content-delivery-network-cdn-1469/
 ---
 ### Introducción

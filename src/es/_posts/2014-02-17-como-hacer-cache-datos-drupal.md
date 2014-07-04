@@ -4,6 +4,7 @@ title: ¿Como usar el Cache de Drupal en los módulos?
 categories: Drupal
 tags: ['cache', 'rendimiento', 'drupal 6', 'drupal 7']
 translation: drupal/2014/02/18/how-cache-data-drupal/
+thumbnail: http://www.profesional.co.cr/images/drupal-fast.png
 language: es
 ---
 Reducir la cantidad de veces que se solicita o calcula un dato es una

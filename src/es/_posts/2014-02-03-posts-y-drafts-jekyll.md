@@ -5,6 +5,7 @@ categories: Jekyll
 tags: ['jekyll', 'markdown']
 language: es
 translation: jekyll/2014/02/06/how-to-work-with-jekyll/
+thumbnail: http://www.profesional.co.cr/images/jekyll-logo.png
 series: [
   ['1. ¿Por qué usar Jekyll en mi blog?', '/es/2014/01/27/por-que-usar-jekyll-en-mi-blog/'],
   ['2. ¿Como trabajar con Jekyll?', '/es/2014/01/28/como-trabajar-con-jekyll/'],

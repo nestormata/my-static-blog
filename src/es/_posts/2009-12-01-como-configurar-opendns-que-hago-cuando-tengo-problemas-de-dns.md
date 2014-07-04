@@ -5,6 +5,7 @@ created: 1259674875
 categories: Personal
 tags: ['dns', 'opendns', 'como', 'configurar', 'problemas']
 language: es
+thumbnail: http://www.profesional.co.cr/images/opendns.gif
 permalink: es/2009/12/01/como-configurar-opendns-que-hago-cuando-tengo-problemas-dns-1466/
 ---
 {{ '/images/opendns.gif' | img_tag: 'article-image', '', 'OpenDNS como configurarlo', 93, 37 }}

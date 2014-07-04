@@ -6,6 +6,7 @@ categories: Personal
 tags: ['Book Review']
 language: en
 permalink: book/see-what-i-mean-kevin-cheng-rosenfeld-media/
+thumbnail: http://www.profesional.co.cr/sites/files/cat.gif
 excerpt: Book review for See What I Mean By Kevin Cheng, Rosenfeld Media
 ---
 <h2>See What I Mean</h2>

@@ -5,6 +5,7 @@ categories: Jekyll
 tags: ['jekyll', 'blog', 'foundation']
 language: es
 translation: jekyll/2014/02/06/how-to-work-with-jekyll/
+thumbnail: http://www.profesional.co.cr/images/jekyll-logo.png
 series: [
   ['2. ¿Como trabajar con Jekyll?', '/es/2014/01/28/como-trabajar-con-jekyll/'],
   ['3. Posts y Drafts en Jekyll', '/es/2014/02/03/posts-y-drafts-jekyll/'],

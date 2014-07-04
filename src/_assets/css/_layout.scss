@@ -141,3 +141,23 @@ div.social-bar.panel {
   padding: 0.5em;
   margin-bottom: 0.25em;
 }
+.front-thumbnail {
+  float: left;
+  max-width: 12em;
+  margin: 0.5em;
+}
+.front-thumbnail img {
+  max-width: 8em;
+  max-height: 6em;
+}
+@media #{$small-only} {
+  .front-thumbnail {
+    float: none;
+    width: 100%;
+    max-width: none;
+    text-align: center;
+  }
+  .front-thumbnail img {
+    margin: 0 auto;
+  }
+}

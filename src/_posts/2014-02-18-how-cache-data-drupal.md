@@ -4,6 +4,7 @@ title: How to use Drupal Cache in module programming?
 categories: Drupal
 tags: ['cache', 'performance', 'drupal 6', 'drupal 7']
 translation: es/2014/02/17/como-hacer-cache-datos-drupal/
+thumbnail: http://www.profesional.co.cr/images/drupal-fast.png
 language: en
 ---
 Reduce the number of requests to make or the times a calculation is made

@@ -5,6 +5,7 @@ created: 1330363485
 categories: Drupal
 tags: ['Drupal', 'estructura', 'guia', 'planeamiento']
 language: es
+thumbnail: http://www.profesional.co.cr/sites/files/archivos_drupal.png
 permalink: es/2012/02/27/como-estructurar-drupal-planear-y-hacerlo-bien-desde-inicio-1485/
 ---
 ## Punto de vista Físico

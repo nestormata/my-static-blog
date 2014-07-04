@@ -16,6 +16,7 @@ gem 'rack-rewrite'
 
 gem 'nokogiri'
 #gem 'gsl'
+gem 'fog'
 
 group :development  do
   gem 'guard-jekyll-plus', git: 'https://github.com/imathis/guard-jekyll-plus', branch: 'master'

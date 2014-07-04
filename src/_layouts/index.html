@@ -10,8 +10,13 @@ frontpage: 1
       {% if post.language == page.lang %}
         <li class="panel post-panel">
           <span class="date-label label">{{ post.date | localize: page.lang, '%d %B %Y' }}</span>
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          <p>{{ post.excerpt | strip_html }}</p>
+          <div>
+            {% if post.thumbnail != nil %}
+              <div class="front-thumbnail"><img src="{{ post.thumbnail }}"/></div>
+            {% endif %}
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p>{{ post.excerpt | strip_html }}</p>
+          </div>
         </li>
       {% endif %}
     {% endfor %}

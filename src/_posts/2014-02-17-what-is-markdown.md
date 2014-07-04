@@ -5,6 +5,7 @@ categories: Jekyll
 tags: ['jekyll', 'markdown']
 language: en
 translation: es/2014/02/11/que-es-markdown/
+thumbnail: http://www.profesional.co.cr/images/markdown.png
 series: [
   ['1. Why use Jekyll in my blog?', '/jekyll/2014/02/03/why-use-jekyll-in-my-blog/'],
   ['2. How to work with Jekyll?', '/jekyll/2014/02/06/how-to-work-with-jekyll/'],

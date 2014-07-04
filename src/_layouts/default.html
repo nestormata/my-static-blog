@@ -6,6 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- <link rel="icon" type="image/x-icon" href="url_to_my_favicon" /> -->
         <title>{{ page.title }}</title>
+        <meta property="og:title" content="{{ page.title }}"/>
+        <meta property="og:site_name" content="Nestor's Development Blog"/>
+        <meta property="og:type" content="blog"/>
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:site" content="@nestormata">
+        <meta name="twitter:creator" content="@nestormata">
+        <meta name="twitter:domain" content="profesional.co.cr">
+        {% if page.thumbnail != nil %}
+          <meta property="og:image" content="{{ page.thumbnail }}"/>
+          <meta name="twitter:image" content="{{ page.thumbnail }}">
+        {% else %}
+          <meta property="og:image" content="{{ site.url }}/images/samurai-welcome.png"/>
+          <meta name="twitter:image" content="{{ site.url }}/images/samurai-welcome.png">
+        {% endif %}
         <meta name="author" content="Nestor Mata Cuthbert">
         <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{% if page.lang == 'es' %}{{ site.rssurles }}{% else %}{{ site.rssurl }}{% endif %}" /> 
         {% if page.excerpt != nil %}
@@ -34,6 +49,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-7448367-1', 'profesional.co.cr');
+  ga('require', 'displayfeatures');
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
   ga('set', 'dimension1', '{{ page.lang }}');
@@ -41,6 +57,20 @@
   ga('set', 'dimension3', '{{ page.id }}');
 
 </script>
+<!-- Begin Inspectlet Embed Code -->
+<script type="text/javascript" id="inspectletjs">
+	window.__insp = window.__insp || [];
+	__insp.push(['wid', 1173134356]);
+	(function() {
+		function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
+		if (window.attachEvent){
+			window.attachEvent('onload', __ldinsp);
+		}else{
+			window.addEventListener('load', __ldinsp, false);
+		}
+	})();
+</script>
+<!-- End Inspectlet Embed Code -->
       <div class="main-nav row">
         <div class="small-12 medium-5 columns">
           <div class="logo">Profesional.co.cr</div>
