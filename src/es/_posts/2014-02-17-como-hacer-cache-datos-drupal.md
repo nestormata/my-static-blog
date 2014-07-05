@@ -5,11 +5,13 @@ categories: Drupal
 tags: ['cache', 'rendimiento', 'drupal 6', 'drupal 7']
 translation: drupal/2014/02/18/how-cache-data-drupal/
 thumbnail: http://www.profesional.co.cr/images/drupal-fast.png
+permalink: es/2014/02/17/como-hacer-cache-datos-drupal/
 language: es
 ---
 Reducir la cantidad de veces que se solicita o calcula un dato es una
 forma de optimizar el rendimiento de una funcionalidad y realmente
 necesario.
+
 {{ '/images/drupal-fast.png' | img_tag: 'article-main-image' }}
 
 ## Formas de cache

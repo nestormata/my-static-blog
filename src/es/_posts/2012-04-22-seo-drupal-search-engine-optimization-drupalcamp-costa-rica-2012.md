@@ -51,10 +51,12 @@ Con esto nos vamos a buscar el Keyword tool de google ads, podemos simplemente b
 En esta herramienta escribimos cada uno de nuestros keywords en la búsqueda, en casos como este donde se busca enfocarse en usuarios de Costa Rica podemos aplicar los filtros de país e idioma, claro que si el caso fuera de buscar usuarios a nivel internacional no lo haríamos e incluiríamos palabras en ingles probablemente, por por el sentido de este ejemplo lo haremos localizado.  
 
 {{ '/sites/files/google_adwords__keyword_tool.png' | img_tag: 'article-image', '', '', 659, 300 }}
+
 Google nos hace un gran favor y nos da información sobre los keywords que le dimos y ademas nos da ideas de keywords.  
 En estos resultados vemos como tal vez deberíamos olvidarnos de algunos de los keywords que pensábamos y mejor utilizar otros.
 
 {{ '/sites/files/google_adwords__keyword_tool-1.png' | img_tag: 'article-image', '', '', 596, 300 }}
+
 Un detalle al respecto de estas listas que importante ver son las búsquedas por mes y la competencia.  
 En esta imagen ordene la lista por búsquedas mensuales, como pueden ver ahí, hay palabras sencillas que la gente busca mucho y que no tienen mucha competencia, sin embargo, una de las palabras que habíamos elegido tiene muy pocas búsquedas y una alta competencia.  
 Si queremos aparecer en las búsquedas la recomendación es tratar de competir con lo sencillo y así obtendremos resultados mas rápido. Así nos enfocaremos en palabras con baja competencia y muchas búsquedas y será como decía un amigo "como quitarle un dulce a un niño", siempre y cuando tengamos buen contenido.  

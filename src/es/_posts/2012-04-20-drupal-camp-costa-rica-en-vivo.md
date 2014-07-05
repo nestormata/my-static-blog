@@ -9,8 +9,9 @@ permalink: es/drupalcamp-costa-rica/
 thumbnail: http://www.profesional.co.cr/sites/files/drupalcamp.png
 excerpt: Este sabado 21 de Abril se dará el Drupal Camp Costa Rica, donde estaré ofreciendo 2 charlas que pueden ver aquí en vivo.
 ---
-{{ '/sites/files/drupalcamp.png' | img_tag: 'article-image', '', 'Drupal Camp Costa Rica', 243, 148 }}
 Este sabado 21 de Abril se dará el Drupal Camp Costa Rica, donde estaré ofreciendo 2 charlas que pueden ver aquí en vivo.
+
+{{ '/sites/files/drupalcamp.png' | img_tag: 'article-image', '', 'Drupal Camp Costa Rica', 243, 148 }}
 
 Las charlas y sus horarios son las siguientes:
 - [Deployments y el ciclo de desarrollo en Drupal, 9:20 - 10:30am](http://drupalcr.org/en/sesiones/deployments-y-el-ciclo-de-desarrollo-en-drupal)

@@ -15,7 +15,9 @@ series: [
 __Markdown__ is a light markup language, it is a simple way to write
 content and give style to it, and it is one of the ways to write content
 in Jekyll.
+
 {{ '/images/markdown.png' | img_tag: 'article-main-image' }}
+
 
 __Markdown__ is simple to write and read, is a format that is easy to
 convert to other formats like HTML, PDF, etc.  

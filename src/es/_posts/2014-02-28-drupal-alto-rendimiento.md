@@ -3,6 +3,7 @@ layout: es_post
 title: Drupal y alto rendimiento
 categories: Drupal
 tags: ['cache', 'rendimiento', 'drupal 7']
+permalink: es/2014/02/28/drupal-alto-rendimiento/
 language: es
 ---
 Información complementaria de la charla de Drupal y Alto Rendimiento

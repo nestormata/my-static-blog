@@ -8,8 +8,9 @@ language: es
 thumbnail: http://www.profesional.co.cr/images/opendns.gif
 permalink: es/2009/12/01/como-configurar-opendns-que-hago-cuando-tengo-problemas-dns-1466/
 ---
-{{ '/images/opendns.gif' | img_tag: 'article-image', '', 'OpenDNS como configurarlo', 93, 37 }}
 Si sueles tener problemas de __DNS__, si vives en __Costa Rica__ probablemente de vez en cuando los tienes con el __ICE, RACSA o CableModem__, o simplemente quieres tener más __control para restringir accesso a páginas o sitios con contenidos obsenos__ o quieres estar un poco más seguro en contra del __phishing__, entonces __OpenDNS__ es una buena opcción.
+
+{{ '/images/opendns.gif' | img_tag: 'article-image', '', 'OpenDNS como configurarlo', 93, 37 }}
 
 ## ¿Qué es un DNS?
 __DNS es la nomenclatura de Domain Name Server__, cuando usas internet siempre tienes por lo menos 1 DNS asignado, este es un servidor que se encarga de traducir cada __dominio__ (por ejemplo nestor.profesional.co.cr) por una __dirección IP__ (por ejemplo 67.23.36.248) que es la dirección de como llegar al servidor de internet que buscas.  
@@ -53,10 +54,11 @@ Si todo esto que te he dicho de routers suena muy complicado o no tienes acceso,
 Espero esto pueda ser de ayuda a más de una persona.
 
 ---
+
 ### DNS's de OpenDNS:
     208.67.222.222
     208.67.220.220
 
-[Página de OpenDNS](http://www.opendns.com)
+[Página de OpenDNS](http://www.opendns.com)  
 [Más información de como configurar OpenDNS en diferentes plataformas y sistemas](http://www.opendns.com/support/category/3)
 

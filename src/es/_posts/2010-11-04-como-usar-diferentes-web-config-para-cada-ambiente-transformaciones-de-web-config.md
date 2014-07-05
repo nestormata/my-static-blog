@@ -19,31 +19,32 @@ Para solucionar esto, *Visual Studio 2010* ahora viene con una funcionalidad que
 ### Pasos:
 Primero, no cree el proyecto como un sitio web ("Web Site"), ya que este tipo de proyecto no tiene esta caracteristica, debe crear el proyecto como una aplicación web ASP.Net ("ASP.Net Web Application").
 
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_1_0.gif' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Creación de proyecto', 597, 412 }}
+{{ '/sites/files/webconfig_transformation_1_0.gif' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Creación de proyecto', 597, 412 }}
 
 Al hacer esto notará que se crean unos archivos debajo del Web.config (en el Solution Explorer), cada uno de estos correspondiente a cada una de las configuraciones del Configuration Manager.
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_2.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Diferentes web.config', 272, 103 }}
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_3.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Diferentes web.config', 262, 572 }}
+
+{{ '/sites/files/webconfig_transformation_2.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Diferentes web.config', 272, 103 }}
+{{ '/sites/files/webconfig_transformation_3.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Diferentes web.config', 262, 572 }}
 
 Ahora vaya al Configuration Manager para crear una nueva configuración para un servidor de producción, asegurese de marcar *"Create new project configurations"*.
 
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_4.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Cree nueva configuración de proyecto', 374, 185 }}
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_5.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Cree nueva configuración de proyecto', 409, 296 }}
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_6.gif' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Cree nueva configuración de proyecto', 498, 303 }}
+{{ '/sites/files/webconfig_transformation_4.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Cree nueva configuración de proyecto', 374, 185 }}
+{{ '/sites/files/webconfig_transformation_5.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Cree nueva configuración de proyecto', 409, 296 }}
+{{ '/sites/files/webconfig_transformation_6.gif' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Cree nueva configuración de proyecto', 498, 303 }}
 
 Esto crea una nueva configuración.
 
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_7.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Nueva configuración de proyecto creada', 409, 296 }}
+{{ '/sites/files/webconfig_transformation_7.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Nueva configuración de proyecto creada', 409, 296 }}
 
 Ahora puede dar click derecho sobre el archivo de Web.config y usar la opción "Add Config Transformations" que agregará un archivo de transformación por cada configuración creada que aun no tenga un archivo de transformación.
 
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_8.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Agregué transformaciones de configuración', 324, 270 }}
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_9.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Diferentes transformaciones para el web.config', 266, 571 }}
+{{ '/sites/files/webconfig_transformation_8.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Agregué transformaciones de configuración', 324, 270 }}
+{{ '/sites/files/webconfig_transformation_9.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Diferentes transformaciones para el web.config', 266, 571 }}
 
 Cree una nueva configuración de publicación.
 
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_10.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Creación de configuración de publicación', 344, 62 }}
-{{ '/sites/nestor.profesional.co.cr/files/webconfig_transformation_11.gif' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Creación de configuración de publicación', 286, 410 }}
+{{ '/sites/files/webconfig_transformation_10.png' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Creación de configuración de publicación', 344, 62 }}
+{{ '/sites/files/webconfig_transformation_11.gif' | img_tag: 'article-image', '', 'Visual Studio 2010 transformación de web.config para diferentes ambientes - Creación de configuración de publicación', 286, 410 }}
 
 ##Ejemplo de web.config
 

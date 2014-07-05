@@ -6,7 +6,7 @@ categories: Personal
 tags: ['ipod touch', 'iphone', 'imovie', 'ipad', 'import video']
 language: en
 permalink: 2011/03/22/how-import-other-camera-videos-imovie-iphone-ipad-or-ipod-touch-1474/
-thumbnail: http://www.profesional.co.cr/sites/nestor.profesional.co.cr/files/reeldirector.png
+thumbnail: http://www.profesional.co.cr/sites/files/reeldirector.png
 translation: es/2011/03/23/como-utilizar-videos-tomados-otras-camaras-imovie-app-para-iphone-ipad-o-ipod-touch-1475/
 ---
 I just bought the 4th generation __iPod Touch__ (this also applies to __iPad__ and __iPhone__) and I wanted to use __iMovie app__ to create videos using my __previous videos taken with my other camera__, but this seems to not be possible, well, let me explain you how to achieve this.
@@ -17,15 +17,20 @@ I'll explain two ways of getting there, one from the device itself (iPod Touch, 
 ## From the same device (iPod Touch, iPhone or iPad)
 You could use another video editing app that allows you to take a video from any of your videos and then work with it and export it to your camera roll.   
 I tried this with ReelDirector app, which is by the way a good app to edit your own videos like iMovie. 
-{{ '/sites/nestor.profesional.co.cr/files/reeldirector.png' | img_tag: 'small-image', '', 'ReelDirector - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 58, 58 }}
+
+{{ '/sites/files/reeldirector.png' | img_tag: 'small-image', '', 'ReelDirector - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 58, 58 }}
 
 1. First, you will need to convert your video to iphone/ipod/ipad compatible format to be able to export it to your photos on your device, for this you could use a free application like [Handbreak](http://handbrake.fr/), which it has pressets for most common devices.
 1. Locate the converted video into one of your videos libraries that you sync with your device, check to sync videos and sync.   
-    {{ '/sites/nestor.profesional.co.cr/files/001_import_videos.png' | img_tag: 'article-image', '', 'Import videos - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 523, 132 }}
+
+    {{ '/sites/files/001_import_videos.png' | img_tag: 'article-image', '', 'Import videos - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 523, 132 }}
+
 1. Create a new project in ReelDirector and add the video you imported, in the case of ReelDirector it will keep your audio as it was original and maybe that format will not allow you to import the video to iMovie so you probably would have to remove the video's audio
-    {{ '/sites/nestor.profesional.co.cr/files/002_create_proejct.png' | img_tag: 'article-image', '', 'Create ReelDirector project - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 220, 98 }}
-    {{ '/sites/nestor.profesional.co.cr/files/005_select_video_type.png' | img_tag: 'article-image', '', 'Insert your video in ReelDirector - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 220, 330 }}
-    {{ '/sites/nestor.profesional.co.cr/files/007_choose_video.png' | img_tag: 'article-image', '', 'Select video in ReelDirector - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 241, 190 }}
+
+    {{ '/sites/files/002_create_proejct.png' | img_tag: 'article-image', '', 'Create ReelDirector project - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 220, 98 }}
+    {{ '/sites/files/005_select_video_type.png' | img_tag: 'article-image', '', 'Insert your video in ReelDirector - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 220, 330 }}
+    {{ '/sites/files/007_choose_video.png' | img_tag: 'article-image', '', 'Select video in ReelDirector - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 241, 190 }}
+
 1. Save, Render and Export the video to your camera roll.
 1. Now you are ready to use this video on your project on iMovie (without the original audio)
 
@@ -33,16 +38,22 @@ I tried this with ReelDirector app, which is by the way a good app to edit your 
 You will need a good video converter that allows you to choose in a custom way not only the video format, but also the audio format, in my case I used Adobe Media Encoder
 
 1. Add the video that you want to convert
-    {{ '/sites/nestor.profesional.co.cr/files/b002_adobe_media_encoder.png' | img_tag: 'article-image', '', 'Add video to be converted - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 358, 374 }}
-    {{ '/sites/nestor.profesional.co.cr/files/b003_select_video.png' | img_tag: 'article-image', '', 'Select video to be converted - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 450, 333 }}
+    
+    {{ '/sites/files/b002_adobe_media_encoder.png' | img_tag: 'article-image', '', 'Add video to be converted - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 358, 374 }}
+    
+    {{ '/sites/files/b003_select_video.png' | img_tag: 'article-image', '', 'Select video to be converted - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 450, 333 }}
 1. Hit "settings" to open the export settings
-    {{ '/sites/nestor.profesional.co.cr/files/b004_go_to_settings.png' | img_tag: 'article-image', '', 'Go to settings - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 460, 263 }}
+    
+    {{ '/sites/files/b004_go_to_settings.png' | img_tag: 'article-image', '', 'Go to settings - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 460, 263 }}
 1. In the format select choose "QuickTime"
-    {{ '/sites/nestor.profesional.co.cr/files/b005_settings_quicktime.png' | img_tag: 'article-image', '', 'Select quicktime format - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 405, 57 }}
+    
+    {{ '/sites/files/b005_settings_quicktime.png' | img_tag: 'article-image', '', 'Select quicktime format - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 405, 57 }}
 1. In the video tab choose Video Codec = "H.264"
-    {{ '/sites/nestor.profesional.co.cr/files/b006_settings_video_h264.png' | img_tag: 'article-image', '', 'Choose video codec H.264 - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 420, 109 }}
+    
+    {{ '/sites/files/b006_settings_video_h264.png' | img_tag: 'article-image', '', 'Choose video codec H.264 - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 420, 109 }}
 1. In the audio tab choose Audio Codec = "AAC", Sample Rate = 44100 Hz and Channels = "Mono"
-    {{ '/sites/nestor.profesional.co.cr/files/b007_settings_audio.png' | img_tag: 'article-image', '', 'Choose audio codec AAC - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 426, 274 }}
+    
+    {{ '/sites/files/b007_settings_audio.png' | img_tag: 'article-image', '', 'Choose audio codec AAC - How to import other camera videos into iMovie app for iPhone, iPad or iPod Touch', 426, 274 }}
 1. Export your video, now it has the formatting that will allow iMovie to use it.
 1. Put your video in one of your picture libraries that will sync with your device, and then use iMovie and select your video, would probably be in the top of the list because of the creation time/date
 

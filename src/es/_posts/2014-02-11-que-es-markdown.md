@@ -6,6 +6,7 @@ tags: ['jekyll', 'markdown']
 language: es
 translation: jekyll/2014/02/17/what-is-markdown/
 thumbnail: http://www.profesional.co.cr/images/markdown.png
+permalink: es/2014/02/11/que-es-markdown/
 series: [
   ['1. ¿Por qué usar Jekyll en mi blog?', '/es/2014/01/27/por-que-usar-jekyll-en-mi-blog/'],
   ['2. ¿Como trabajar con Jekyll?', '/es/2014/01/28/como-trabajar-con-jekyll/'],
@@ -15,6 +16,7 @@ series: [
 __Markdown__ es un lenguaje de marcado ligero, es una forma sencilla de
 escribir y dar estilo a un texto y es una de las formas de escribir
 contenido en Jekyll.
+
 {{ '/images/markdown.png' | img_tag: 'article-main-image' }}
 
 __Markdown__ es sencillo de escribir y de leer, es un formato que es

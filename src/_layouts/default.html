@@ -111,19 +111,21 @@
             <div class="center-container">
               <div class="small-12 columns top-area">
                 {% for block in site.data.topblocks %}
+                  {% assign block_layout = block.layout %}
                   {% if page.lang == 'es' %}
-                    {% include {{block.layout}} title=block.title_es body=block.content_es classes=block.classes %}
+                    {% include {{block_layout}} title=block.title_es body=block.content_es classes=block.classes %}
                   {% else %}
-                    {% include {{block.layout}} title=block.title body=block.content classes=block.classes %}
+                    {% include {{block_layout}} title=block.title body=block.content classes=block.classes %}
                   {% endif %}
                 {% endfor %}
               </div>
               <div class="small-12 medium-4 medium-push-8 large-4 large-push-8 columns">
                 {% for block in site.data.sideblocks %}
+                  {% assign block_layout = block.layout %}
                   {% if page.lang == 'es' %}
-                    {% include {{block.layout}} title=block.title_es body=block.content_es classes=block.classes %}
+                    {% include {{block_layout}} title=block.title_es body=block.content_es classes=block.classes %}
                   {% else %}
-                    {% include {{block.layout}} title=block.title body=block.content classes=block.classes %}
+                    {% include {{block_layout}} title=block.title body=block.content classes=block.classes %}
                   {% endif %}
                 {% endfor %}
               </div>
@@ -191,7 +193,7 @@
         });
       </script>
       {% if site.liveload == true %}
-      <script src="{{site.url}}:35729/livereload.js?snipver=1"></script>
+      <script src="http://localhost:35729/livereload.js?snipver=1"></script>
       {% endif %}
 {% if page.frontpage == nil %}
 <div id="fb-root"></div>

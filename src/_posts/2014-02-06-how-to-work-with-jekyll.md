@@ -14,6 +14,7 @@ series: [
 ---
 Now that we understand why Jekyll could be a good option I can explain
 how I achieve it.
+
 {{ '/images/jekyll-logo.png' | img_tag: 'article-main-image' }}
 
 ## Jekyll's installation and configuration

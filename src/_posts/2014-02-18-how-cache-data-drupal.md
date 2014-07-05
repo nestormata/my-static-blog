@@ -9,6 +9,7 @@ language: en
 ---
 Reduce the number of requests to make or the times a calculation is made
 ia way to improve the performance of a feature and is necesary.  
+
 {{ '/images/drupal-fast.png' | img_tag: 'article-main-image' }}
 
 ## Different ways to cache

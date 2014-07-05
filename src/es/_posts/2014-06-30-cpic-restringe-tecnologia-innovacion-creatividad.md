@@ -3,6 +3,7 @@ layout: es_post
 title: CPIC quiere restringir la innovación, la creatividad y la tecnología.
 categories: Profesional
 tags: ['programación', 'cpic', 'colegio de profesionales en informatica y computación', 'ley']
+permalink: es/2014/06/30/cpic-restringe-tecnologia-innovacion-creatividad/
 thumbnail: http://www.profesional.co.cr/images/Informatica-Libre-logo2.png
 language: es
 ---
@@ -10,6 +11,7 @@ En los inicios la computación eran unos y ceros y tarjetas perforadas
 ingresadas en mainframes.  
 Hace poco mas de 3 de décadas la computación estaba limitada a sistemas
 científicos, militares o corporativos.  
+
 {{ '/images/Informatica-Libre-logo2.png' | img_tag: 'article-main-image' }}
 
 Ser parte de ese mundo esta limitado principalmente, pero aún entonces

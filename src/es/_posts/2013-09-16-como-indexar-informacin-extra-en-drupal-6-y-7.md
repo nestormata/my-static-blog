@@ -13,20 +13,23 @@ Es muy sencillo agregar palabras para ser indexadas en un nodo o entidad en Drup
 Antes de empezar a escribir código (el cual será muy sencillo) necesitamos entender un poco sobre como trabaja, lo cual nos lleva a hablar un poco sobre motores de búsqueda.
 
 Los motores de búsqueda tienen 2 grandes partes:
+
 1. __El indexador:__ este es probablemente la parte más importante y la más mágica (y por mágica me refiero a matemática).
-2. __El buscador:__ este es la parte que trabaja en el momento en que hacemos una búsqueda y si esta parte trabaja bien es porque todo el trabajo duro fue llevado a cabo por el indexador, y adicionalmente una buena arquitectura para guardar los datos y obtenerlos rápido.
+1. __El buscador:__ este es la parte que trabaja en el momento en que hacemos una búsqueda y si esta parte trabaja bien es porque todo el trabajo duro fue llevado a cabo por el indexador, y adicionalmente una buena arquitectura para guardar los datos y obtenerlos rápido.
 
 En el caso de la búsqueda default de Drupal, __Solr__, __Sphinx__ y la mayoría de motores de búsqueda que se utilizan con __Drupal__ ellos no guardan realmente los datos, ellos reciben el contenido para poder analizar las palabras y guardan la referencia al nodo que luego Drupal utiliza para armar los resultados.
 
 Después de analizar los datos las palabras son extraídas y cada una es considerada con una nota basada en cosas como la frecuencia (cuantas veces aparece en el texto) y la relevancia basada en el código HTML que las encierra.
 
 Por ejemplo, digamos que tenemos lo siguiente en un contenido:
+
 - Una palabra que aparece 2 veces en un párrafo
 - Una palabra encerrada en un tag __strong__
 - Una palabra encerrada en un tag de encabezado 2 (H2)
 - Una palabra encerrada en un tag de encabezado 1 (H1)
 
 En este caso las notas quedan algo así:
+
 - La palabra en el párrafo obtiene 1 punto por aparición así que 2 puntos en total
 - La palabra encerrada en el tag strong obtiene 3 puntos
 - La palabra encerrada por el H2 obtiene 18 puntos
@@ -39,7 +42,8 @@ _Tip: Recuerde dar importancia a lo que usted quiere que la tenga (use strong, h
 De esa manera el usuario que hace una búsqueda tiene más posibilidades de encontrar lo que esta buscando.
 
 La lista completa de los puntajes asignados por el proceso de indexación por defecto es la siguiente:
-- __H1:__ 25 puntos 
+
+- __H1:__ 25 puntos
 - __H2:__ 18 puntos
 - __H3:__ 15 puntos
 - __H4:__ 12 puntos

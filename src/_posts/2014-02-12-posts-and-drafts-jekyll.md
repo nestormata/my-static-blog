@@ -13,6 +13,7 @@ series: [
 ---
 In this third part I'll explain how to work with posts and drafts in
 Jekyll.
+
 {{ '/images/jekyll-logo.png' | img_tag: 'article-main-image' }}
 
 ## Front-matter

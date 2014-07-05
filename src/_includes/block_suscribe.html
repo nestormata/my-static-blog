@@ -3,7 +3,7 @@
   <form action="http://ebookarte.us6.list-manage1.com/subscribe/post?u=9a82284cd5a1a3a9561d2ec44&amp;id=9098037764" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     {% if include.title != nil %}<h3>{{ include.title }}</h3>{% endif %}
   <div class="block-content panel">
-    <div>{{ include.body | markdownify }}</div>
+    {% if include.body != nil %}<div>{{ include.body | markdownify }}</div>{% endif %}
     <div class="mc-field-group">
       <label for="mce-EMAIL">{% if page.lang == 'es' %}Email{% else %}Email Address{% endif %} <span class="asterisk">*</span>
       </label>

@@ -51,8 +51,10 @@ Usualmente no se recomienda ingresar el directorio files dentro del control de v
 __Para esto hay 2 recomendaciones:__
 
 - Crear una regla de exclusion del directorio
+  
   {{ '/sites/files/files_dir.png' | img_tag: 'article-image', '', '', 319, 269 }}
 - Colocar el directorio fuera del los directorios públicos del servidor web y crear un link simbólico hacia este directorio
+  
   {{ '/sites/files/symlink.png' | img_tag: 'article-image', '', '', 407, 227 }}
 
 En caso de no utilizar la opción del link simbólico recomiendo mover el directorio files a /sites/files y no dentro del directorio especifico del sitio, esto debido a que a veces hay que cambiar de nombre el sitio o se trabaja con diferentes nombres en los diferentes ambientes y esto puede causar problemas.

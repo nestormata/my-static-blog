@@ -14,6 +14,7 @@ series: [
 ---
 [Jekyll](http://jekyllrb.com/) is an static site generator designed for blogs.
 Why is Jekyll better that any dinamic CMS like [Drupal](http://drupal.org) or [Wordpress](http://wordpress.org)?
+
 {{ '/images/jekyll-logo.png' | img_tag: 'article-main-image' }}
 
 ## Why Jekyll?

@@ -3,6 +3,7 @@ layout: es_post
 title: Sobre la ley de obligatoriedad a colegiarse al CPIC
 categories: Profesional
 tags: ['programación', 'cpic', 'colegio de profesionales en informatica y computación', 'ley']
+permalink: es/2014/06/30/proyecto-ley-obligatoriedad-cpic-costa-rica/
 thumbnail: http://www.profesional.co.cr/images/Informatica-Libre-logo2.png
 language: es
 ---
@@ -11,6 +12,7 @@ Costa Rica, nos viene a intentar gobernar como un tirano que busca
 poder.  
 El colegio tiene una ley en la asamblea legislativa, para asegurarse que
 solamente colegiados puedan ejercer en Tecnologías de Información.  
+
 {{ '/images/Informatica-Libre-logo2.png' | img_tag: 'article-main-image' }}
 
 Esto a simple vista parece inofensivo y hasta necesario, y desde la

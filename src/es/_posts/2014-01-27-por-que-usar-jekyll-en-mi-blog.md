@@ -6,6 +6,7 @@ tags: ['jekyll', 'blog', 'foundation']
 language: es
 translation: jekyll/2014/02/06/how-to-work-with-jekyll/
 thumbnail: http://www.profesional.co.cr/images/jekyll-logo.png
+permalink: es/2014/01/27/por-que-usar-jekyll-en-mi-blog/
 series: [
   ['2. ¿Como trabajar con Jekyll?', '/es/2014/01/28/como-trabajar-con-jekyll/'],
   ['3. Posts y Drafts en Jekyll', '/es/2014/02/03/posts-y-drafts-jekyll/'],
@@ -14,6 +15,7 @@ series: [
 ---
 [Jekyll](http://jekyllrb.com/) es un generador estático diseñado para blogs.  
 ¿Por qué esto es mejor que un sistema dinámico como [Drupal](http://drupal.org/) o [Wordpress](http://wordpress.org/)?
+
 {{ '/images/jekyll-logo.png' | img_tag: 'article-main-image' }}
 
 ##¿Por qué Jekyll?
