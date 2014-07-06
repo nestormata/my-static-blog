@@ -96,6 +96,7 @@ The function `drupal_static` receives the `name` or key of the data, the
 `default value` and an indication if is must `clean` the existing data.  
 In that sense this function can be seeing like a similar functionality
 of the set Drupal variable\_get/set set of functions.  
+
 ### Use of static data exclusive for a function, in Drupal 7:
 {% highlight php %}
 <?php

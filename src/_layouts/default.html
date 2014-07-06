@@ -51,10 +51,11 @@
   ga('create', 'UA-7448367-1', 'profesional.co.cr');
   ga('require', 'displayfeatures');
   ga('require', 'linkid', 'linkid.js');
-  ga('send', 'pageview');
-  ga('set', 'dimension1', '{{ page.lang }}');
-  {% if page.categories != nil %}ga('set', 'dimension2', '{{ page.categories | array_to_sentence_string }}');{% endif %}
-  ga('set', 'dimension3', '{{ page.id }}');
+  ga('send', 'pageview', {
+    {% if page.categories != nil %}'dimension2', '{{ page.categories | array_to_sentence_string }}',{% endif %}
+    {% if page.id != nil %}'dimension3', '{{ page.id }}',{% endif %}
+    'dimension1', '{{ page.lang }}'
+  });
 
 </script>
 <!-- Begin Inspectlet Embed Code -->

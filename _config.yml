@@ -24,8 +24,8 @@ highlighter:  true
 
 relative_permalinks:  false
 permalink:            pretty
-paginate:             5
-paginate_path:        'page:num'
+#paginate:             5
+#paginate_path:        'page:num'
 
 markdown:     kramdown
 markdown_ext: markdown,mkd,mkdn,md
