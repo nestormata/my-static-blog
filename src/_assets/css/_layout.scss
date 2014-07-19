@@ -7,6 +7,15 @@ body {
   background-color: $color-6;
   color: $color-5;
 }
+div.header {
+  display: block;
+}
+div.top-area {
+  display: block;
+}
+div.right-area {
+  display: block;
+}
 a, a:link, a:visited {
   color: $color-3;
 }
@@ -20,6 +29,7 @@ a, a:link, a:visited {
   background-color: $color-5;
 }
 .main-nav nav {
+  display: block;
 }
 .main-nav nav ul {
   min-height: rem-calc(32);
@@ -47,6 +57,7 @@ a, a:link, a:visited {
   background: url('/images/samurai-welcome.png') no-repeat;
 }
 div.language-switch {
+  display: block;
   margin: 0;
   padding: 0.5em;
   background-color: $color-5;
@@ -63,6 +74,7 @@ ul.posts li {
   padding-top: 0;
 }
 .post-panel .date-label {
+  display: inline-block;
   top: -1em;
   margin: 0;
 }
@@ -79,6 +91,7 @@ ul.posts li {
 .post-page {
 }
 .post-page .date-label {
+  display: inline-block;
   left: -1.25em;
   font-size:150%;
   @include radius();
@@ -89,6 +102,9 @@ ul.posts li {
 .footer {
   background-color: $color-5;
   color: $color-6;
+}
+div.social-bar {
+  display: block;
 }
 div.social-bar.panel {
   height: 40px;

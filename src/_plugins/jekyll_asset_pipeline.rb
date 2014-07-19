@@ -1,11 +1,10 @@
 require 'jekyll_asset_pipeline'
 
 module JekyllAssetPipeline
-  # process SCSS files
+
+  # Pre process SCSS files with compass
   class SassConverter < JekyllAssetPipeline::Converter
     require 'compass'
-    #require 'zurb-foundation'
-    #add_import_path "bower_components/foundation/scss"
 
     Compass.configuration.sass_dir = 'src/_assets/css'
     Sass.load_paths << 'src/_components/foundation/scss'
@@ -23,6 +22,7 @@ module JekyllAssetPipeline
     end
   end
 
+  # Compress JS files with YUI compressor
   class JavaScriptCompressor < JekyllAssetPipeline::Compressor
     require 'yui/compressor'
 
@@ -35,6 +35,7 @@ module JekyllAssetPipeline
     end
   end
 
+  # Compress CSS files with YUI compressor
   class CssCompressor < JekyllAssetPipeline::Compressor
     require 'yui/compressor'
 
@@ -44,6 +45,37 @@ module JekyllAssetPipeline
 
     def compress
       YUI::CssCompressor.new.compress(@content)
+    end
+  end
+
+  # A template to return the path of the processed asset file instead of the html tag
+  # This allows me to load the CSS with JavaScript after the document is loaded
+  class CssFileNameTemplate < JekyllAssetPipeline::Template
+    def self.filetype
+      '.css'
+    end
+
+    def self.priority
+      1
+    end
+
+    def html
+      "/#{@path}/#{@filename}"
+    end
+  end
+
+  # A template to add async property to the JavaScript tag
+  class JavaScriptAsyncTemplate < JekyllAssetPipeline::Template
+    def self.filetype
+      '.js'
+    end
+
+    def self.priority
+      1
+    end
+
+    def html
+      "<script src='/#{@path}/#{@filename}' type='text/javascript' async></script>\n"
     end
   end
 

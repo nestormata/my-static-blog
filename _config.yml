@@ -41,6 +41,8 @@ url:          http://www.profesional.co.cr
 #url:          http://localhost:4000
 lsi:          false
 #lsi:          true
+cached_path:  http://3cca053a28a5db4d7e2d-9c64834929b7793a1eba90da107ff905.r73.cf1.rackcdn.com/cached
+#cached_path:  /cached
 
 rdiscount:
   extensions:     []
@@ -63,11 +65,11 @@ lunr_search:
   excludes: [rss.xml, atom.xml, sitemap.xml]
 
 asset_pipeline:
+  display_path: /3cca053a28a5db4d7e2d-9c64834929b7793a1eba90da107ff905.r73.cf1.rackcdn.com/assets
   bundle: true
   compress: true
   output_path: assets
   gzip: false
-  display_path: /3cca053a28a5db4d7e2d-9c64834929b7793a1eba90da107ff905.r73.cf1.rackcdn.com/assets
 
 jekyll-press:
   exclude: '*.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns

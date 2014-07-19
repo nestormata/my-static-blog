@@ -1,7 +1,10 @@
 require 'htmlcompressor'
 
+# This file is to compress the site HTML files using HTML Compressor
 module Jekyll
   module Compressor
+
+    # To allow exclude files using configuration
     def exclude?(dest, dest_path)
       res = false
       file_name = dest_path.slice(dest.length+1..dest_path.length)
@@ -20,6 +23,7 @@ module Jekyll
       res
     end
 
+    # To override the files with the compressed version
     def output_file(dest, content)
       FileUtils.mkdir_p(File.dirname(dest))
       File.open(dest, 'w') do |f|
@@ -27,14 +31,15 @@ module Jekyll
       end
     end
 
+    # Where the HTML actually gets compressed
     def output_html(path, content)
-      #output_file(path, HtmlPress.press(content, @site.config['jekyll-press'] && @site.config['jekyll-press']['html_options'] || {}))
       compressor = HtmlCompressor::Compressor.new
       output_file(path, compressor.compress(content))
     end
 
   end
 
+  # To apply the compression to Posts
   class Post
     include Compressor
 
@@ -44,6 +49,7 @@ module Jekyll
     end
   end
 
+  # To apply the compression to Pages (uses the exclude configuration)
   class Page
     include Compressor
 

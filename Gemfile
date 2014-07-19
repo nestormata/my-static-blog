@@ -5,6 +5,7 @@ gem 'jekyll'
 #gem 'jekyll', github: "jekyll/jekyll", branch: "master"
 gem 'jekyll-slim'
 gem 'jekyll-asset-pipeline'
+#gem 'jekyll-asset-pipeline', github: "matthodan/jekyll-asset-pipeline", branch: "master"
 gem 'compass'
 #gem 'zurb-foundation'
 gem 'foundation-rails'
