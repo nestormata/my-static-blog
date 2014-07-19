@@ -56,7 +56,7 @@ module JekyllAssetPipeline
     end
 
     def self.priority
-      1
+      -5
     end
 
     def html
@@ -71,11 +71,12 @@ module JekyllAssetPipeline
     end
 
     def self.priority
-      1
+      -5
     end
 
     def html
-      "<script src='/#{@path}/#{@filename}' type='text/javascript' async></script>\n"
+      #"<script src='/#{@path}/#{@filename}' type='text/javascript' async></script>\n"
+      "/#{@path}/#{@filename}"
     end
   end
 
